@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="RMLABS">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4db8ff"/>
+      <stop offset="100%" stop-color="#1d7fd1"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0f141c"/>
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="url(#g)" opacity="0.95"/>
+  <text x="256" y="292" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="148" font-weight="800" fill="#041018">RM</text>
+</svg>

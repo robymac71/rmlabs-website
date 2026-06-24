@@ -1,0 +1,6 @@
+.DS_Store
+*.swp
+Thumbs.db
+/image.png
+/ChatGPT*.png
+/Screenshot*.png
