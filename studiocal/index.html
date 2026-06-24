@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>StudioCal · Agenda professionale per studi e visite</title>
-  <meta name="description" content="StudioCal: calendario visite, anagrafica pazienti, note e foto cliniche, export .ics, sync iCloud. Per chi lavora in studio.">
+  <meta name="description" content="StudioCal: calendario visite, anagrafica pazienti, note e foto cliniche, export .ics, sync iCloud. Per studi professionali su iOS e Android.">
   <link rel="canonical" href="https://rmlabs.dev/studiocal/">
   <meta property="og:title" content="StudioCal · Agenda per studi professionali">
-  <meta property="og:image" content="https://rmlabs.dev/assets/apps/studiocal-icon.jpg">
+  <meta property="og:description" content="Calendario delle visite, pazienti, allegati clinici e export calendario — senza fogli sparsi.">
+  <meta property="og:image" content="https://rmlabs.dev/assets/studio-banner.png">
   <link rel="icon" href="/assets/apps/studiocal-icon.jpg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +23,7 @@
       <ul class="nav-links">
         <li><a href="/">Home</a></li>
         <li><a href="/studiocal/" aria-current="page">StudioCal</a></li>
+        <li><a href="/studiocal/supporto.html">Supporto</a></li>
         <li><a href="/#contatti">Contatti</a></li>
       </ul>
     </div>
@@ -30,34 +32,140 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <div class="eyebrow">Produttività · iOS · Android in arrivo</div>
+          <div class="eyebrow">Produttività · iOS · Android in test</div>
           <h1>StudioCal</h1>
-          <p class="lead">L’agenda pensata per chi lavora in <strong>studio</strong>: calendario delle visite, anagrafica pazienti, note e immagini cliniche — senza fogli sparsi o app generiche.</p>
+          <p class="lead">
+            L’agenda per <strong>studio professionale</strong>: calendario delle visite, anagrafica pazienti, note e foto collegate agli appuntamenti,
+            import ed export in formato <strong>.ics</strong> e, con abbonamento Pro, integrazione con il Calendario iOS.
+            I dati possono sincronizzarsi tra i tuoi dispositivi tramite <strong>iCloud</strong> (CloudKit).
+          </p>
           <div class="store-buttons">
-            <a class="store-btn" href="https://apps.apple.com/it/app/studiocal/id6760969305" target="_blank" rel="noopener noreferrer"><span></span><span><small>Scarica su</small><strong>App Store</strong></span></a>
+            <a class="store-btn" href="https://apps.apple.com/it/app/studiocal/id6760969305" target="_blank" rel="noopener noreferrer"><span aria-hidden="true"></span><span><small>Scarica su</small><strong>App Store</strong></span></a>
           </div>
           <p style="margin-top:1rem;color:var(--text-muted);font-size:0.9rem;"><span class="tag">Google Play</span> — versione Android in fase di test su Play Console.</p>
         </div>
-        <div class="hero-card"><img src="/assets/apps/studiocal-icon-android.png" alt="Icona StudioCal" style="max-width:280px;margin:0 auto;border-radius:24px;"></div>
+        <div class="hero-card">
+          <img src="/assets/studio-banner.png" alt="StudioCal — calendario professionale per visite e pazienti" style="width:100%;border-radius:var(--radius);">
+        </div>
       </div>
     </section>
+
     <section class="section section-muted">
       <div class="container">
-        <div class="section-header"><h2>Funzionalità</h2></div>
+        <div class="section-header">
+          <h2>Calendario flessibile</h2>
+          <p>Vista mese, settimana e giorno — con ricerca, colori per tipo evento e spostamento drag-and-drop.</p>
+        </div>
         <div class="feature-grid">
-          <div class="feature"><strong>Calendario</strong><span>Vista mensile, zoom a due dita, visite e promemoria per giorno.</span></div>
-          <div class="feature"><strong>Scheda paziente</strong><span>Contatti, note, foto cliniche e visite collegate.</span></div>
-          <div class="feature"><strong>Import / export</strong><span>Condividi calendario in .ics, import da Mail e Calendario iOS (Pro).</span></div>
-          <div class="feature"><strong>iCloud</strong><span>Sincronizzazione tra iPhone e iPad con lo stesso Apple ID.</span></div>
+          <div class="feature"><strong>Viste Mese / Settimana / Giorno</strong><span>Passa tra le viste, torna a «Oggi» e cerca per paziente, titolo o note.</span></div>
+          <div class="feature"><strong>Drag &amp; drop</strong><span>Sposta visite tra giorni con conferma e annulla subito dopo.</span></div>
+          <div class="feature"><strong>Colori per tipo</strong><span>Visita, compleanno, personale o tipi custom — personalizzabili dalla guida.</span></div>
+          <div class="feature"><strong>Promemoria</strong><span>Notifiche anche ad app chiusa, con permesso notifiche attivo.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Pazienti e visite</h2>
+          <p>Tutto collegato: anagrafica, allegati clinici e cronologia appuntamenti.</p>
+        </div>
+        <div class="feature-grid">
+          <div class="feature"><strong>Scheda paziente</strong><span>Nome, contatti, note, radiografie e foto dalla libreria.</span></div>
+          <div class="feature"><strong>Visite in studio</strong><span>Collega un paziente esistente o creane uno nuovo al volo.</span></div>
+          <div class="feature"><strong>Allegati</strong><span>Foto, PDF e documenti da File/iCloud con anteprima integrata.</span></div>
+          <div class="feature"><strong>Condivisione singola visita</strong><span>Esporta un appuntamento in .ics dalla scheda di modifica.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container">
+        <div class="section-header">
+          <h2>Import, export e iCloud</h2>
+        </div>
+        <div class="feature-grid">
+          <div class="feature"><strong>Export calendario .ics</strong><span>File completo con tutte le visite StudioCal (funzione Pro).</span></div>
+          <div class="feature"><strong>Import .ics</strong><span>Da Mail, WhatsApp, File o altre app — con conferma prima dell’import.</span></div>
+          <div class="feature"><strong>Calendario iOS</strong><span>Import eventi dal calendario di sistema (Pro, con autorizzazione).</span></div>
+          <div class="feature"><strong>Sync iCloud</strong><span>Stesso Apple ID: dati allineati tra iPhone e iPad via CloudKit.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Identità visiva</h2>
+          <p>Icone dedicate per iOS e Android.</p>
+        </div>
+        <div class="icon-duo">
+          <img src="/assets/apps/studiocal-icon.jpg" width="140" height="140" alt="Icona StudioCal iOS">
+          <img src="/assets/apps/studiocal-icon-android.png" width="140" height="140" alt="Icona StudioCal Android">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container">
+        <div class="pro-banner">
+          <h3>Versione gratuita e StudioCal Pro</h3>
+          <p>
+            Senza abbonamento: limiti su pazienti e appuntamenti totali (come indicato nel paywall in app).
+            <strong>StudioCal Pro</strong> (abbonamento Apple) sblocca pazienti e visite illimitati, export calendario completo,
+            import dal Calendario di sistema e condizioni più ampie sugli import .ics. Su iPhone e iPad la versione gratuita può mostrare banner pubblicitari.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header"><h2>Come iniziare</h2></div>
+        <div class="steps">
+          <div class="step-card">
+            <h3>Crea i pazienti</h3>
+            <p>Aggiungi anagrafiche con contatti e note dalla tab Pazienti.</p>
+          </div>
+          <div class="step-card">
+            <h3>Pianifica le visite</h3>
+            <p>Dal calendario: nuovo evento, tipo visita, paziente e promemoria.</p>
+          </div>
+          <div class="step-card">
+            <h3>Allega documenti</h3>
+            <p>Foto cliniche, radiografie o PDF direttamente sulla visita.</p>
+          </div>
+          <div class="step-card">
+            <h3>Esporta o sincronizza</h3>
+            <p>Con Pro: export .ics o sync iCloud tra i tuoi dispositivi Apple.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container contact-box">
+        <h2>Scarica StudioCal</h2>
+        <p class="lead">Disponibile su App Store. Android in arrivo su Google Play.</p>
+        <div class="store-buttons">
+          <a class="store-btn" href="https://apps.apple.com/it/app/studiocal/id6760969305" target="_blank" rel="noopener noreferrer"><span aria-hidden="true"></span><span><small>Scarica su</small><strong>App Store</strong></span></a>
+        </div>
+        <div class="assist-links">
+          <a href="/studiocal/supporto.html">Assistenza e FAQ</a>
+          <a href="https://robymac71.github.io/privacy_studiocal.html" target="_blank" rel="noopener noreferrer">Privacy iOS</a>
+          <a href="https://robymac71.github.io/privacy_studiocal_android.html" target="_blank" rel="noopener noreferrer">Privacy Android</a>
+          <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a>
         </div>
       </div>
     </section>
   </main>
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div><strong>StudioCal</strong> · RMLABS Developer</div>
+      <div><strong>StudioCal</strong> · RMLABS Developer<br><a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a></div>
       <div class="footer-links">
         <a href="/">Home</a>
+        <a href="/studiocal/supporto.html">Supporto</a>
         <a href="https://robymac71.github.io/privacy_studiocal.html" target="_blank" rel="noopener noreferrer">Privacy iOS</a>
         <a href="https://robymac71.github.io/privacy_studiocal_android.html" target="_blank" rel="noopener noreferrer">Privacy Android</a>
       </div>
