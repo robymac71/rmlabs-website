@@ -78,3 +78,38 @@ Le privacy possono restare su GitHub Pages finché non le migri sotto `rmlabs.de
 ## Contatti
 
 rmlabs.dev@gmail.com · Roberto Maricchiolo
+
+## SEO e motori di ricerca
+
+Il sito include già `robots.txt`, `sitemap.xml`, meta Open Graph/Twitter, JSON-LD (Organization, WebSite, SoftwareApplication, FAQ).
+
+### 1. Google Search Console (priorità)
+
+1. Vai su [Google Search Console](https://search.google.com/search-console)
+2. **Aggiungi proprietà** → prefisso URL → `https://rmlabs.dev`
+3. Verifica con **tag HTML**: copia il meta `google-site-verification` e incollalo in `index.html` (c’è un commento segnaposto in `<head>`)
+4. Dopo il push: **Sitemap** → invia `https://rmlabs.dev/sitemap.xml`
+5. **Ispezione URL** → incolla la home → **Richiedi indicizzazione** (ripeti per `/dmicopilot/` e le altre landing principali)
+
+### 2. Bing Webmaster Tools
+
+1. [Bing Webmaster](https://www.bing.com/webmasters) → aggiungi sito
+2. Puoi importare da Search Console se già verificato
+3. Invia la stessa sitemap
+
+### 3. Collegamenti esterni (autorità del dominio)
+
+- In **App Store Connect** e **Play Console**: URL marketing / supporto → `https://rmlabs.dev/...` (non solo GitHub Pages)
+- Profilo **GitHub** (`robymac71`): sito web → `https://rmlabs.dev`
+- Post nei gruppi Facebook BYD / pagine app: link alla landing `https://rmlabs.dev/dmicopilot/`
+- Nel tempo: migra le privacy da `robymac71.github.io` a `rmlabs.dev` per concentrare tutto su un dominio
+
+### 4. Cosa aspettarsi
+
+- Indicizzazione iniziale: da pochi giorni a 2–4 settimane
+- Posizionamento su query generiche («app mobile»): difficile per siti piccoli
+- Query specifiche («DMi Copilot BYD», «Cooklity Chef IA»): più realistiche se titoli e testi contengono quelle parole (già impostati nelle landing)
+
+### 5. Dopo ogni aggiornamento importante
+
+Aggiorna `lastmod` in `sitemap.xml` e richiedi nuova indicizzazione dalla Search Console.
