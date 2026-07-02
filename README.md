@@ -81,35 +81,56 @@ rmlabs.dev@gmail.com · Roberto Maricchiolo
 
 ## SEO e motori di ricerca
 
-Il sito include già `robots.txt`, `sitemap.xml`, meta Open Graph/Twitter, JSON-LD (Organization, WebSite, SoftwareApplication, FAQ).
+Il sito include `robots.txt`, `sitemap.xml`, meta Open Graph/Twitter, JSON-LD (Organization, Person, ProfessionalService, FAQPage, SoftwareApplication) e la landing dedicata **`/sviluppo-app/`** per le ricerche su sviluppo applicazioni mobile.
 
-### 1. Google Search Console (priorità)
+### Query target (Italia)
+
+- sviluppo app / sviluppo applicazioni mobile
+- sviluppatore app / programmatore app
+- sviluppo app iOS / sviluppo app Android
+- creazione app mobile / app su misura
+- sviluppo app Nettuno / sviluppatore app Roma / sviluppo app Lazio
+- Roberto Maricchiolo sviluppatore app
+- RMLABS Developer (priorità)
 
 1. Vai su [Google Search Console](https://search.google.com/search-console)
 2. **Aggiungi proprietà** → prefisso URL → `https://rmlabs.dev`
-3. Verifica con **tag HTML**: copia il meta `google-site-verification` e incollalo in `index.html` (c’è un commento segnaposto in `<head>`)
+3. Verifica: file `googled6271098b7835290.html` già presente in root
 4. Dopo il push: **Sitemap** → invia `https://rmlabs.dev/sitemap.xml`
-5. **Ispezione URL** → incolla la home → **Richiedi indicizzazione** (ripeti per `/dmicopilot/` e le altre landing principali)
+5. **Ispezione URL** → richiedi indicizzazione per:
+   - `https://rmlabs.dev/`
+   - `https://rmlabs.dev/sviluppo-app/`
+   - landing app principali
 
 ### 2. Bing Webmaster Tools
 
 1. [Bing Webmaster](https://www.bing.com/webmasters) → aggiungi sito
-2. Puoi importare da Search Console se già verificato
+2. File `BingSiteAuth.xml` già presente
 3. Invia la stessa sitemap
 
 ### 3. Collegamenti esterni (autorità del dominio)
 
-- In **App Store Connect** e **Play Console**: URL marketing / supporto → `https://rmlabs.dev/...` (non solo GitHub Pages)
+- **App Store Connect** e **Play Console**: URL marketing → `https://rmlabs.dev/`
 - Profilo **GitHub** (`robymac71`): sito web → `https://rmlabs.dev`
-- Post nei gruppi Facebook BYD / pagine app: link alla landing `https://rmlabs.dev/dmicopilot/`
-- Nel tempo: migra le privacy da `robymac71.github.io` a `rmlabs.dev` per concentrare tutto su un dominio
+- **LinkedIn** / portfolio: link a `/sviluppo-app/`
+- Schede store: descrizione sviluppatore con link al sito
+- Nel tempo: migra le privacy da `robymac71.github.io` a `rmlabs.dev`
 
-### 4. Cosa aspettarsi
+### 4. Google Business Profile (consigliato)
+
+Crea una scheda “RMLABS Developer” o “Roberto Maricchiolo — Sviluppo app” con:
+- Categoria: Sviluppatore di software / Servizi informatici
+- Sito: `https://rmlabs.dev/sviluppo-app/`
+- Area servita: Nettuno, Roma, Lazio, Italia
+- Foto portfolio e link agli store
+
+### 5. Cosa aspettarsi
 
 - Indicizzazione iniziale: da pochi giorni a 2–4 settimane
-- Posizionamento su query generiche («app mobile»): difficile per siti piccoli
-- Query specifiche («DMi Copilot BYD», «Cooklity Chef IA»): più realistiche se titoli e testi contengono quelle parole (già impostati nelle landing)
+- Query generiche («sviluppo app»): molta concorrenza — servono tempo, backlink e contenuti
+- Query specifiche («Roberto Maricchiolo app», «RMLABS Developer», «DMi Copilot BYD»): più realistiche
+- La pagina `/sviluppo-app/` è il fulcro per conversioni da ricerca
 
-### 5. Dopo ogni aggiornamento importante
+### 6. Dopo ogni aggiornamento importante
 
 Aggiorna `lastmod` in `sitemap.xml` e richiedi nuova indicizzazione dalla Search Console.
