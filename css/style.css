@@ -662,6 +662,22 @@ h2 {
   border-bottom: 1px solid var(--border);
 }
 
+.app-card-rich .app-card-thumb-contain {
+  aspect-ratio: 1024 / 682;
+  object-fit: contain;
+  object-position: center;
+  background: linear-gradient(180deg, #eef4ff 0%, #e8eef8 100%);
+  padding: 0.35rem;
+}
+
+.hero-card .hero-banner-contain {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  background: linear-gradient(180deg, #eef4ff 0%, #e8eef8 100%);
+}
+
 .app-card-rich .app-card-body {
   padding: 1.35rem 1.5rem 1.5rem;
 }
