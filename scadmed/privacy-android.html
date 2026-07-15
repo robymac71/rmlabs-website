@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- ScadMed · privacy Android · https://rmlabs.dev/scadmed/privacy-android.html -->
+<!-- ScadMed · privacy Android · pubblicare su https://rmlabs.dev/scadmed/privacy-android.html -->
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -55,7 +55,7 @@
         <li><strong>Informazioni da banche dati pubbliche</strong>: forma farmaceutica, codici ATC, titolare AIC, link a foglio illustrativo e RCP su AIFA, quando disponibili;</li>
         <li><strong>Immagini e testo da scansione</strong>: foto della confezione o dell’etichetta e testo estratto con OCR sul dispositivo (nome, scadenza, lotto);</li>
         <li><strong>Ricerche nell’armadietto</strong>: termini che digiti per filtrare i farmaci (elaborati in locale);</li>
-        <li><strong>Preferenze app</strong>: filtri, layout della home, impostazioni di notifica;</li>
+        <li><strong>Preferenze app</strong>: filtri, layout della home, lingua dell’interfaccia, impostazioni di notifica;</li>
         <li><strong>Stato abbonamento</strong>: se hai attivato <strong>ScadMed Plus</strong> tramite Google Play (gestito da Google).</li>
     </ul>
     <p>
@@ -116,10 +116,11 @@
     <p>
         L’elenco dei farmaci, le scadenze e le note sono memorizzati
         <strong>localmente</strong> sul tuo dispositivo Android (archivio interno dell’app, es. file JSON
-        o database locale in modalità privata).
+        in modalità privata dell’app).
     </p>
     <p>
-        Le preferenze (layout home, filtri) possono essere salvate in <strong>SharedPreferences</strong> o storage locale equivalente sul dispositivo.
+        Le preferenze (layout home, filtri, lingua) possono essere salvate in <strong>SharedPreferences</strong>
+        o storage locale equivalente sul dispositivo.
     </p>
     <p>
         <strong>Non gestiamo un server cloud</strong> che archivi centralmente il tuo armadietto, le foto
@@ -142,22 +143,26 @@
         </thead>
         <tbody>
             <tr>
-                <td><strong>Fotocamera</strong></td>
-                <td>Scattare foto alla confezione per leggere nome, scadenza, barcode e lotto.</td>
+                <td><strong>Internet</strong></td>
+                <td>Consultare AIFA, foglietti illustrativi, assistente IA cloud e (se attivo) annunci AdMob.</td>
             </tr>
             <tr>
-                <td><strong>Galleria foto</strong></td>
-                <td>Scegliere un’immagine già scattata della confezione.</td>
+                <td><strong>Fotocamera</strong></td>
+                <td>Scattare foto alla confezione per leggere nome, scadenza, barcode e lotto.</td>
             </tr>
             <tr>
                 <td><strong>Notifiche</strong></td>
                 <td>Promemoria su farmaci in scadenza o da usare entro dopo l’apertura.</td>
             </tr>
+            <tr>
+                <td><strong>Allarmi e promemoria</strong></td>
+                <td>Programmare promemoria locali sulle scadenze, anche dopo il riavvio del telefono.</td>
+            </tr>
         </tbody>
     </table>
     <p>
         Puoi revocare i permessi in qualsiasi momento da <strong>Impostazioni → App → ScadMed → Autorizzazioni</strong>;
-        alcune funzioni (scansione, avvisi) potrebbero smettere di funzionare.
+        alcune funzioni (scansione, avvisi, ricerche online) potrebbero smettere di funzionare.
     </p>
     <p>
         ScadMed <strong>non richiede la posizione GPS</strong> per le funzioni principali dell’armadietto.
@@ -193,8 +198,8 @@
 
     <h2>10. Trasferimenti extra-UE</h2>
     <p>
-        La maggior parte dei dati resta sul dispositivo. Eventuali richieste verso <strong>Google</strong>,
-        <strong>Google (AdMob)</strong>, <strong>fornitori di servizi IA</strong> o siti di foglietti illustrativi
+        La maggior parte dei dati resta sul dispositivo. Eventuali richieste verso <strong>Google</strong>
+        (Google Play, AdMob), <strong>fornitori di servizi IA</strong> o siti di foglietti illustrativi
         possono comportare trattamenti da parte di tali soggetti secondo le loro policy (anche fuori dall’Unione Europea).
     </p>
 
@@ -241,7 +246,7 @@
     </p>
 
     <div class="footer">
-        <p>Ultimo aggiornamento: 21 giugno 2026</p>
+        <p>Ultimo aggiornamento: 15 luglio 2026</p>
         <p><strong>ScadMed</strong> · <a href="https://rmlabs.dev">rmlabs.dev</a> · Roberto Maricchiolo · Google Play</p>
         <p>Contatti privacy: <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a></p>
     </div>
