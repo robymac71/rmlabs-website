@@ -4,19 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ScadMed · Armadietto medicinali e scadenze</title>
-  <meta name="description" content="ScadMed: gestisci l’armadietto di casa, scadenze confezione e dopo apertura, barcode, OCR, ricerca AIFA e foglietti illustrativi. iOS e Android.">
+  <meta name="description" content="ScadMed: organizer per l’armadietto di casa — scadenze, barcode, OCR, ricerca AIFA, promemoria locali e assistente IA. Disponibile su App Store. Android in arrivo.">
   <link rel="canonical" href="https://rmlabs.dev/scadmed/">
   <meta property="og:title" content="ScadMed · Armadietto medicinali">
-  <meta property="og:description" content="Scadenze confezione e dopo apertura, scansione etichette, barcode, AIFA e promemoria locali. Dati sul dispositivo.">
+  <meta property="og:description" content="Organizza. Ricorda. Il tuo armadietto dei medicinali che ti ricorda le scadenze. Su App Store.">
   <meta property="og:image" content="https://rmlabs.dev/assets/scadmed-banner.png">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="it_IT">
   <meta property="og:url" content="https://rmlabs.dev/scadmed/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ScadMed · Armadietto medicinali">
-  <meta name="twitter:description" content="Scadenze confezione e dopo apertura, barcode, OCR e foglietti illustrativi. Dati sul dispositivo.">
+  <meta name="twitter:description" content="Organizza. Ricorda. Scadenze, barcode, OCR e foglietti illustrativi. Disponibile su App Store.">
   <meta name="twitter:image" content="https://rmlabs.dev/assets/scadmed-banner.png">
-  <meta name="keywords" content="ScadMed, armadietto medicinali, scadenze farmaci, app farmaci, medicinali casa, AIFA, barcode farmaci">
+  <meta name="keywords" content="ScadMed, armadietto medicinali, scadenze farmaci, app farmaci, medicinali casa, AIFA, barcode farmaci, App Store">
   <link rel="icon" href="/assets/apps/scadmed-icon.jpg" type="image/jpeg">
   <link rel="apple-touch-icon" href="/assets/apps/scadmed-icon.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,11 +32,12 @@
         "name": "ScadMed",
         "url": "https://rmlabs.dev/scadmed/",
         "image": "https://rmlabs.dev/assets/scadmed-banner.png",
-        "applicationCategory": "HealthApplication",
-        "operatingSystem": "iOS, Android",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "iOS",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+        "downloadUrl": "https://apps.apple.com/it/app/scadmed/id6786180802",
         "author": { "@type": "Organization", "name": "RMLABS Developer", "url": "https://rmlabs.dev" },
-        "description": "Gestione armadietto medicinali: scadenze confezione e dopo apertura, barcode, OCR, ricerca AIFA e foglietti illustrativi."
+        "description": "Organizer per l’armadietto medicinali: scadenze, barcode, OCR, ricerca AIFA, promemoria locali e assistente IA."
       },
       {
         "@type": "BreadcrumbList",
@@ -66,28 +67,27 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <div class="eyebrow">Salute domestica · iOS &amp; Android</div>
+          <div class="eyebrow">Organizer domestico · iOS · Android in arrivo</div>
           <h1>ScadMed</h1>
           <p class="lead">
-            Tieni sotto controllo l’<strong>armadietto dei medicinali</strong> di casa: scadenze di confezione,
-            giorni utili <strong>dopo l’apertura</strong>, promemoria locali e collegamento ai
-            <strong>foglietti illustrativi</strong> ufficiali quando disponibili.
-            Inserimento manuale, <strong>barcode</strong>, scansione etichetta con <strong>OCR</strong> e ricerca <strong>AIFA</strong> —
-            con i dati che restano sul dispositivo.
+            <strong>Organizza. Ricorda.</strong> Il tuo armadietto dei medicinali che ti ricorda le scadenze —
+            confezione chiusa e giorni utili <strong>dopo l’apertura</strong>, promemoria locali,
+            scansione con fotocamera e collegamento ai foglietti illustrativi quando disponibili.
           </p>
           <p style="margin-top:1rem;color:var(--text-muted);font-size:0.9rem;">
-            Non sostituisce medico o farmacista. Informazioni indicative.
-          </p>
-          <p style="margin-top:1rem;color:var(--text-muted);font-size:0.9rem;">
-            <span class="tag">App Store</span> — in revisione ·
-            <span class="tag">Google Play</span> — in arrivo
+            Non è un’app medica: non dà consigli terapeutici. Non sostituisce medico o farmacista.
           </p>
           <div class="btn-row" style="margin-top:1.5rem;">
+            <a class="btn btn-primary" href="https://apps.apple.com/it/app/scadmed/id6786180802" target="_blank" rel="noopener noreferrer">Scarica su App Store</a>
             <a class="btn btn-secondary" href="/scadmed/support.html">Supporto e FAQ</a>
           </div>
+          <p style="margin-top:1rem;color:var(--text-muted);font-size:0.9rem;">
+            <span class="tag">App Store</span> disponibile ·
+            <span class="tag">Google Play</span> in test
+          </p>
         </div>
         <div class="hero-card">
-          <img class="hero-banner-contain" src="/assets/scadmed-banner.png" alt="ScadMed — armadietto medicinali, scadenze e promemoria su iPhone" style="border-radius:var(--radius);">
+          <img class="hero-banner-contain" src="/assets/scadmed-banner.png" width="1024" height="500" alt="ScadMed — fotografa la scatola, scadenze sotto controllo, dati solo sul dispositivo">
         </div>
       </div>
     </section>
@@ -95,14 +95,16 @@
     <section class="section section-muted">
       <div class="container">
         <div class="section-header">
-          <h2>Armadietto e scadenze</h2>
-          <p>Non un promemoria «prendi la pillola alle 8»: ScadMed risponde a «questa confezione è ancora valida?»</p>
+          <h2>Novità 2026</h2>
+          <p>Versione 1.0 su App Store — queste le funzioni principali.</p>
         </div>
         <div class="feature-grid">
-          <div class="feature"><strong>Scadenza confezione</strong><span>Data stampata sulla scatola, con avvisi prima che scada.</span></div>
-          <div class="feature"><strong>Dopo l’apertura</strong><span>Timer di validità dal bugiardino, per sciroppi e confezioni già aperte.</span></div>
-          <div class="feature"><strong>Armadietti multipli</strong><span>Casa, valigia, seconda abitazione — tutto organizzato per luogo.</span></div>
-          <div class="feature"><strong>Promemoria locali</strong><span>Notifiche sul dispositivo, anche ad app chiusa (con permesso attivo).</span></div>
+          <div class="feature"><strong>Fotografa la scatola</strong><span>Aggiungi medicinali in pochi secondi: fotocamera, OCR etichetta e riconoscimento automatico.</span></div>
+          <div class="feature"><strong>Barcode</strong><span>Leggi il codice a barre per compilare nome e dati principali.</span></div>
+          <div class="feature"><strong>Scadenze sotto controllo</strong><span>Promemoria intelligenti prima che una confezione scada o vada smaltita dopo l’apertura.</span></div>
+          <div class="feature"><strong>Sicuro e privato</strong><span>L’armadietto resta sul dispositivo. Nessun account obbligatorio.</span></div>
+          <div class="feature"><strong>Ricerca AIFA</strong><span>Scheda farmaco e link al foglio illustrativo ufficiale quando disponibili.</span></div>
+          <div class="feature"><strong>Assistente IA</strong><span>Aiuto a compilare i campi della confezione (dopo video o con ScadMed Plus) — non dà consigli medici.</span></div>
         </div>
       </div>
     </section>
@@ -110,14 +112,14 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <h2>Inserimento rapido</h2>
-          <p>Aggiungi un farmaco in pochi secondi — senza digitare tutto a mano.</p>
+          <h2>Armadietto e scadenze</h2>
+          <p>Non un promemoria «prendi la pillola alle 8»: ScadMed risponde a «questa confezione è ancora valida?»</p>
         </div>
         <div class="feature-grid">
-          <div class="feature"><strong>Scansione etichetta</strong><span>Foto alla confezione: nome, lotto, barcode e data di scadenza con OCR.</span></div>
-          <div class="feature"><strong>Barcode</strong><span>Lettura codice a barre per compilare i campi principali.</span></div>
-          <div class="feature"><strong>Ricerca AIFA</strong><span>Farmaci registrati in Italia e link al foglio illustrativo ufficiale.</span></div>
-          <div class="feature"><strong>Inserimento manuale</strong><span>Funziona anche senza fotocamera o connessione dati.</span></div>
+          <div class="feature"><strong>Scadenza confezione</strong><span>Data stampata sulla scatola, con avvisi prima che scada.</span></div>
+          <div class="feature"><strong>Dopo l’apertura</strong><span>Timer di validità tipica (es. sciroppi), dal momento in cui apri la scatola.</span></div>
+          <div class="feature"><strong>Categorie e organizzazione</strong><span>Armadietto ordinato per tipo di prodotto, con stato OK / in scadenza / scaduto.</span></div>
+          <div class="feature"><strong>Promemoria locali</strong><span>Notifiche sul dispositivo, anche ad app chiusa (con permesso attivo).</span></div>
         </div>
       </div>
     </section>
@@ -125,13 +127,13 @@
     <section class="section section-muted">
       <div class="container">
         <div class="section-header">
-          <h2>Privacy e dati sensibili</h2>
+          <h2>Privacy</h2>
         </div>
         <div class="feature-grid">
-          <div class="feature"><strong>Sul dispositivo</strong><span>L’armadietto non viene archiviato su server dello sviluppatore.</span></div>
-          <div class="feature"><strong>Nessun account obbligatorio</strong><span>Usi l’app subito, senza registrazione dedicata.</span></div>
-          <div class="feature"><strong>GDPR</strong><span>Trattamento rigoroso dei dati sulla salute; informativa dedicata per iOS e Android.</span></div>
-          <div class="feature"><strong>Disclaimer chiaro</strong><span>Strumento organizzativo: verifica sempre medico, farmacista e RCP.</span></div>
+          <div class="feature"><strong>Sul dispositivo</strong><span>Farmaci e scadenze non vengono archiviati su server dello sviluppatore.</span></div>
+          <div class="feature"><strong>Nessun account</strong><span>Usi l’app subito, senza registrazione dedicata.</span></div>
+          <div class="feature"><strong>Trasparente</strong><span>Informativa privacy dedicata per iOS e Android.</span></div>
+          <div class="feature"><strong>Disclaimer chiaro</strong><span>Organizer domestico: verifica sempre medico, farmacista e foglietto illustrativo.</span></div>
         </div>
       </div>
     </section>
@@ -140,7 +142,6 @@
       <div class="container">
         <div class="section-header">
           <h2>Identità visiva</h2>
-          <p>Icona dedicata per iOS e Android.</p>
         </div>
         <div class="icon-duo">
           <img src="/assets/apps/scadmed-icon.jpg" width="140" height="140" alt="Icona ScadMed iOS">
@@ -154,10 +155,10 @@
         <div class="pro-banner">
           <h3>Versione gratuita e ScadMed Plus</h3>
           <p>
-            La versione base include l’armadietto con limiti indicati in app.
-            <strong>ScadMed Plus</strong> (abbonamento mensile con prova gratuita o acquisto lifetime) sblocca funzioni premium,
-            tra cui accesso all’assistente IA senza video pubblicitari prima dell’uso.
-            Gli acquisti sono gestiti da Apple o Google.
+            Usa l’armadietto con la versione base (limiti indicati in app).
+            <strong>ScadMed Plus</strong> — abbonamento mensile con prova gratuita 7 giorni oppure acquisto lifetime —
+            sblocca funzioni premium, tra cui assistente IA senza video pubblicitari.
+            Gli acquisti sono gestiti da Apple (e, a breve, da Google Play).
           </p>
           <p style="margin-top:0.75rem;"><a href="/scadmed/subscription-terms.html">Termini dell’abbonamento →</a></p>
         </div>
@@ -169,33 +170,40 @@
         <div class="section-header"><h2>Come iniziare</h2></div>
         <div class="steps">
           <div class="step-card">
-            <h3>Scansiona o cerca</h3>
-            <p>Foto alla confezione, barcode o ricerca nel database AIFA.</p>
+            <h3>1. Scarica</h3>
+            <p>Installa ScadMed dall’App Store sul tuo iPhone o iPad.</p>
           </div>
           <div class="step-card">
-            <h3>Controlla le scadenze</h3>
+            <h3>2. Scansiona o cerca</h3>
+            <p>Foto alla confezione, barcode o ricerca AIFA.</p>
+          </div>
+          <div class="step-card">
+            <h3>3. Controlla le scadenze</h3>
             <p>Confezione chiusa e validità dopo apertura in un’unica vista.</p>
           </div>
           <div class="step-card">
-            <h3>Attiva i promemoria</h3>
-            <p>Notifiche locali prima che un farmaco scada o vada smaltito.</p>
+            <h3>4. Attiva i promemoria</h3>
+            <p>Notifiche locali prima che un farmaco scada.</p>
           </div>
-          <div class="step-card">
-            <h3>Consulta il foglietto</h3>
-            <p>Link al RCP ufficiale quando il cartoncino non c’è più.</p>
-          </div>
+        </div>
+        <div class="btn-row" style="margin-top:2rem;justify-content:center;">
+          <a class="btn btn-primary" href="https://apps.apple.com/it/app/scadmed/id6786180802" target="_blank" rel="noopener noreferrer">Apri su App Store</a>
         </div>
       </div>
     </section>
 
     <section class="section section-muted">
       <div class="container contact-box">
-        <h2>ScadMed in arrivo sugli store</h2>
-        <p class="lead">iOS in revisione su App Store. Android in preparazione su Google Play.</p>
-        <div class="assist-links">
-          <a href="/scadmed/support.html">Assistenza e FAQ</a>
+        <h2>Scarica ScadMed</h2>
+        <p class="lead">Disponibile su <strong>App Store</strong>. Versione Android in test su Google Play.</p>
+        <div class="btn-row" style="margin-top:1.25rem;">
+          <a class="btn btn-primary" href="https://apps.apple.com/it/app/scadmed/id6786180802" target="_blank" rel="noopener noreferrer">App Store</a>
+          <a class="btn btn-secondary" href="/scadmed/support.html">Supporto</a>
+        </div>
+        <div class="assist-links" style="margin-top:1.5rem;">
           <a href="/scadmed/privacy-ios.html">Privacy iOS</a>
           <a href="/scadmed/privacy_scadmed_android.html">Privacy Android</a>
+          <a href="/scadmed/data-deletion.html">Eliminazione dati</a>
           <a href="/scadmed/eula.html">EULA</a>
           <a href="mailto:rmlabs.dev@gmail.com">rmlabs.dev@gmail.com</a>
         </div>
@@ -213,12 +221,13 @@
         <a href="/">Home</a>
         <a href="/sviluppo-app/">Sviluppo app</a>
         <a href="/scadmed/support.html">Supporto</a>
+        <a href="https://apps.apple.com/it/app/scadmed/id6786180802" target="_blank" rel="noopener noreferrer">App Store</a>
         <a href="/scadmed/privacy-ios.html">Privacy iOS</a>
         <a href="/scadmed/privacy_scadmed_android.html">Privacy Android</a>
       </div>
     </div>
     <div class="container legal-note">
-      ScadMed non è affiliata né approvata da AIFA, farmacie o case farmaceutiche.
+      ScadMed non è affiliata né approvata da AIFA, farmacie o case farmaceutiche. Organizer domestico: non fornisce diagnosi né consigli terapeutici.
     </div>
   </footer>
 
