@@ -143,6 +143,76 @@ a:hover {
   overflow: hidden;
 }
 
+.hero--wide-banner {
+  padding: 2.25rem 0 3.5rem;
+}
+
+.hero-wide {
+  display: grid;
+  gap: 2rem;
+}
+
+.hero-banner-wide {
+  display: block;
+  width: 100%;
+  max-width: min(100%, 1180px);
+  margin-inline: auto;
+  border-radius: calc(var(--radius) + 6px);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  animation: rise-in 0.75s ease both;
+}
+
+.hero--wide-banner .container {
+  width: min(100% - 1.25rem, 1240px);
+}
+
+.hero-banner-wide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-wide-copy {
+  max-width: 52rem;
+  margin-inline: auto;
+  text-align: center;
+  animation: rise-in 0.7s ease 0.08s both;
+}
+
+.hero-wide-copy .lead {
+  margin-inline: auto;
+}
+
+.hero-wide-copy .btn-row {
+  justify-content: center;
+}
+
+.hero-wide-copy .eyebrow {
+  margin-inline: auto;
+}
+
+@media (max-width: 860px) {
+  .hero--wide-banner {
+    padding: 1.5rem 0 2.5rem;
+  }
+
+  .hero-wide-copy {
+    text-align: left;
+  }
+
+  .hero-wide-copy .eyebrow,
+  .hero-wide-copy .lead {
+    margin-inline: 0;
+  }
+
+  .hero-wide-copy .btn-row {
+    justify-content: flex-start;
+  }
+}
+
 .hero::before {
   content: "";
   position: absolute;
@@ -1010,6 +1080,8 @@ h1 {
 @media (prefers-reduced-motion: reduce) {
   .hero-grid > div:first-child,
   .hero-card,
+  .hero-banner-wide,
+  .hero-wide-copy,
   .btn-primary {
     animation: none;
   }
