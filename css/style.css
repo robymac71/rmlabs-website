@@ -147,11 +147,23 @@ a:hover {
   }
 }
 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.85rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .nav-links a {
   color: var(--text-muted);
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   font-weight: 500;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .nav-links a:hover,
@@ -1012,7 +1024,9 @@ h2 {
   .hero-grid {
     grid-template-columns: 1fr;
   }
+}
 
+@media (max-width: 1100px) {
   .nav-toggle {
     display: inline-flex;
   }
@@ -1024,7 +1038,9 @@ h2 {
     right: 1rem;
     left: 1rem;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: stretch;
+    gap: 0.35rem;
     padding: 1rem;
     background: var(--bg-elevated);
     border: 1px solid var(--border);
@@ -1033,6 +1049,11 @@ h2 {
 
   .nav-links.is-open {
     display: flex;
+  }
+
+  .nav-links a {
+    font-size: 0.95rem;
+    white-space: normal;
   }
 }
 
