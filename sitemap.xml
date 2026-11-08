@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://rmlabs.dev/</loc><lastmod>2026-09-09</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://rmlabs.dev/sviluppo-app/</loc><lastmod>2026-07-02</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://rmlabs.dev/dmicopilot/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://rmlabs.dev/cooklity/</loc><lastmod>2026-06-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://rmlabs.dev/studiocal/</loc><lastmod>2026-06-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://rmlabs.dev/toytell/</loc><lastmod>2026-07-05</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://rmlabs.dev/scadmed/</loc><lastmod>2026-07-16</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://rmlabs.dev/dmicopilot/supporto.html</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://rmlabs.dev/cooklity/supporto.html</loc><lastmod>2026-06-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://rmlabs.dev/studiocal/supporto.html</loc><lastmod>2026-06-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://rmlabs.dev/toytell/supporto.html</loc><lastmod>2026-07-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://rmlabs.dev/scadmed/support.html</loc><lastmod>2026-07-03</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://rmlabs.dev/scadmed/privacy-ios.html</loc><lastmod>2026-07-03</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://rmlabs.dev/scadmed/privacy_scadmed_android.html</loc><lastmod>2026-07-15</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://rmlabs.dev/scadmed/data-deletion.html</loc><lastmod>2026-07-15</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://rmlabs.dev/</loc><lastmod>2026-11-08</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://rmlabs.dev/sviluppo-app/</loc><lastmod>2026-11-08</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+
+  <url><loc>https://rmlabs.dev/dmicopilot/</loc><lastmod>2026-11-08</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rmlabs.dev/cooklity/</loc><lastmod>2026-11-08</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rmlabs.dev/studiocal/</loc><lastmod>2026-11-08</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rmlabs.dev/toytell/</loc><lastmod>2026-11-08</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rmlabs.dev/scadmed/</loc><lastmod>2026-11-08</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+  <url><loc>https://rmlabs.dev/dmicopilot/supporto.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rmlabs.dev/cooklity/supporto.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rmlabs.dev/studiocal/supporto.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rmlabs.dev/toytell/supporto.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rmlabs.dev/scadmed/support.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://rmlabs.dev/dmicopilot/eula.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://rmlabs.dev/cooklity/eula.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://rmlabs.dev/toytell/eula.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://rmlabs.dev/scadmed/eula.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://rmlabs.dev/scadmed/subscription-terms.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://rmlabs.dev/scadmed/privacy-ios.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://rmlabs.dev/scadmed/privacy_scadmed_android.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://rmlabs.dev/scadmed/data-deletion.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+
+  <url><loc>https://rmlabs.dev/scadfisc/eula.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://rmlabs.dev/scadfisc/support.html</loc><lastmod>2026-11-08</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://rmlabs.dev/scadfisc/subscription-terms.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://rmlabs.dev/scadfisc/privacy_scadfisc_ios.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://rmlabs.dev/scadfisc/data-deletion.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
 </urlset>
