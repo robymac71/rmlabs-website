@@ -12,3 +12,8 @@ All photos from [Unsplash](https://unsplash.com) under the [Unsplash License](ht
 | studiocal-need.jpg | planning / calendar | photo-1506784983877-45594efa4cbe | Unsplash |
 
 Downloaded Nov 2026 for RMLABS organic social posts (download conversion).
+
+## Original app creatives (also rotated)
+
+Files named `*-app.jpg`, `*-azione.jpg`, `*-hero.jpg`, `*-feature.jpg`, etc. are
+RMLABS first-party creatives (App Store / site / Downloads), not Unsplash.
