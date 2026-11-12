@@ -1148,3 +1148,73 @@ h1 {
     transform: none;
   }
 }
+
+/* Sticky store CTA — always visible download push (organic conversion) */
+.store-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 80;
+  display: none;
+  gap: 0.65rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 1rem calc(0.7rem + env(safe-area-inset-bottom, 0));
+  background: rgba(10, 14, 22, 0.94);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.28);
+}
+
+.store-sticky.is-visible {
+  display: flex;
+}
+
+.store-sticky-copy {
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.25;
+  max-width: 42%;
+}
+
+.store-sticky-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  justify-content: flex-end;
+}
+
+.store-sticky-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 10px;
+  background: #fff;
+  color: #0a0e16;
+  text-decoration: none;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.store-sticky-actions a:hover {
+  text-decoration: none;
+  opacity: 0.92;
+}
+
+body.has-store-sticky {
+  padding-bottom: 5.5rem;
+}
+
+@media (min-width: 900px) {
+  .store-sticky-copy {
+    max-width: none;
+    font-size: 0.95rem;
+  }
+  .store-sticky-actions a {
+    font-size: 0.85rem;
+    padding: 0.6rem 0.9rem;
+  }
+}
