@@ -1218,3 +1218,69 @@ body.has-store-sticky {
     padding: 0.6rem 0.9rem;
   }
 }
+
+/* DMi Copilot — nuova grafica novembre 2026 */
+.dmi-hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+}
+
+.dmi-hero-brand img {
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(8, 45, 42, 0.18);
+  flex-shrink: 0;
+}
+
+.dmi-hero-brand h1 {
+  margin: 0;
+  line-height: 1.1;
+}
+
+.dmi-hero-brand .dmi-tagline {
+  margin: 0.35rem 0 0;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.dmi-promo-banner {
+  margin: 0 0 1.75rem;
+  border-radius: calc(var(--radius) + 4px);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  background: #0b1c2c;
+}
+
+.dmi-promo-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.feature.feature-accent {
+  background: linear-gradient(145deg, rgba(34, 197, 94, 0.12), rgba(3, 105, 161, 0.1));
+  border-color: rgba(3, 105, 161, 0.28);
+}
+
+.feature .feature-kicker {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-secondary);
+}
+
+@media (max-width: 640px) {
+  .dmi-hero-brand img {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+  }
+}
