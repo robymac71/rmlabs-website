@@ -8,19 +8,21 @@
   <link rel="canonical" href="https://rmlabs.dev/studiocal/">
   <meta property="og:title" content="StudioCal · Agenda per studi e visite">
   <meta property="og:description" content="Tra un paziente e l’altro: calendario delle visite, cartella con radiografie, compleanni e file .ics da passare in segreteria — senza fogli sparsi.">
-  <meta property="og:image" content="https://rmlabs.dev/assets/studio-banner.png">
+  <meta property="og:image" content="https://rmlabs.dev/assets/studio-banner.png?v=20261121b">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="it_IT">
   <meta property="og:url" content="https://rmlabs.dev/studiocal/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="StudioCal · Agenda per studi e visite">
   <meta name="twitter:description" content="Calendario visite, cartelle paziente, allegati clinici e export .ics pensati per la giornata di studio.">
-  <meta name="twitter:image" content="https://rmlabs.dev/assets/studio-banner.png">
+  <meta name="twitter:image" content="https://rmlabs.dev/assets/studio-banner.png?v=20261121b">
   <link rel="icon" href="/assets/apps/studiocal-icon.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="/assets/apps/studiocal-icon.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261112a">
+  <link rel="stylesheet" href="/css/style.css?v=20261121b">
+  <link rel="stylesheet" href="/css/themes.css?v=20261121b">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -29,7 +31,7 @@
         "@type": "SoftwareApplication",
         "name": "StudioCal",
         "url": "https://rmlabs.dev/studiocal/",
-        "image": "https://rmlabs.dev/assets/studio-banner.png",
+        "image": "https://rmlabs.dev/assets/studio-banner.png?v=20261121b",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "iOS",
         "downloadUrl": "https://apps.apple.com/it/app/studiocal/id6760969305",
@@ -48,7 +50,7 @@
   }
   </script>
 </head>
-<body>
+<body class="theme-studiocal">
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="/">
@@ -62,6 +64,7 @@
       <ul class="nav-links">
         <li><a href="/">Home</a></li>
         <li><a href="/studiocal/" aria-current="page">StudioCal</a></li>
+        <li><a href="/studiocal/#funzioni">Funzioni</a></li>
         <li><a href="/studiocal/supporto.html">Supporto</a></li>
         <li><a href="/#contatti">Contatti</a></li>
       </ul>
@@ -69,256 +72,198 @@
   </header>
   <main>
     <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <div class="eyebrow">Per studi professionali · iOS · Android in test</div>
-          <h1>StudioCal</h1>
-          <p class="lead">
-            C’è quel quarto d’ora tra un paziente che esce e il successivo che aspetta in sala:
-            la radiografia da rivedere, il numero da richiamare, il compleanno di chi torna
-            ogni sei mesi. <strong>StudioCal</strong> nasce lì — come agenda dello studio,
-            non come un altro foglio Excel lasciato aperto sul banco.
-          </p>
-          <p class="lead" style="font-size:1.05rem;margin-top:0.75rem;">
-            Calendario delle visite, anagrafica pazienti, note e foto collegate agli appuntamenti,
-            export in formato <strong>.ics</strong> da passare in segreteria e, con abbonamento Pro,
-            integrazione con il Calendario iOS. I dati possono sincronizzarsi tra i tuoi dispositivi
-            tramite <strong>iCloud</strong> (CloudKit).
-          </p>
-          <div class="store-buttons">
-            <a class="store-btn" href="https://apps.apple.com/it/app/studiocal/id6760969305" target="_blank" rel="noopener noreferrer"><span aria-hidden="true"></span><span><small>Scarica su</small><strong>App Store</strong></span></a>
+      <div class="container">
+        <figure class="dmi-promo-banner">
+          <img
+            src="/assets/studio-banner.png?v=20261121b"
+            width="1024"
+            height="500"
+            alt="StudioCal — calendario professionale per visite e pazienti"
+          >
+        </figure>
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">Per studi professionali · iOS · Android in test</div>
+            <div class="app-hero-brand">
+              <img src="/assets/apps/studiocal-icon.jpg" width="72" height="72" alt="Icona StudioCal">
+              <div>
+                <h1>StudioCal</h1>
+                <p class="app-tagline">L’agenda dello studio, tra una visita e l’altra</p>
+              </div>
+            </div>
+            <p class="lead">
+              C’è quel quarto d’ora tra un paziente che esce e il successivo che aspetta in sala:
+              la radiografia da rivedere, il numero da richiamare, il compleanno di chi torna
+              ogni sei mesi. <strong>StudioCal</strong> nasce lì — come agenda dello studio,
+              non come un altro foglio Excel lasciato aperto sul banco.
+            </p>
+            <p class="lead" style="font-size:1.05rem;margin-top:0.75rem;">
+              Calendario delle visite, anagrafica pazienti, note e foto collegate agli appuntamenti,
+              export in formato <strong>.ics</strong> da passare in segreteria e, con abbonamento Pro,
+              integrazione con il Calendario iOS. I dati possono sincronizzarsi tra i tuoi dispositivi
+              tramite <strong>iCloud</strong> (CloudKit).
+            </p>
+            <div class="store-buttons">
+              <a class="store-btn" href="https://apps.apple.com/it/app/studiocal/id6760969305" target="_blank" rel="noopener noreferrer"><span aria-hidden="true"></span><span><small>Scarica su</small><strong>App Store</strong></span></a>
+            </div>
+            <p style="margin-top:1rem;color:var(--text-muted);font-size:0.9rem;">
+              <span class="tag">Google Play</span> — versione Android ancora in fase di test su Play Console.
+            </p>
           </div>
-          <p style="margin-top:1rem;color:var(--text-muted);font-size:0.9rem;">
-            <span class="tag">Google Play</span> — versione Android ancora in fase di test su Play Console.
-          </p>
-        </div>
-        <div class="hero-card">
-          <img src="/assets/studio-banner.png" alt="StudioCal — calendario professionale per visite e pazienti" style="width:100%;border-radius:var(--radius);">
+          <div class="hero-card" style="padding:1rem;display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,#1e40af 0%,#334155 100%);">
+            <img
+              src="/assets/apps/studiocal-icon.jpg"
+              alt="Logo StudioCal"
+              style="width:min(100%,280px);border-radius:28%;box-shadow:0 20px 50px rgba(0,0,0,0.25);"
+            >
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="giornata">
+    <section class="section section-muted" id="giornata">
       <div class="container">
         <div class="section-header">
           <h2>Cosa cambia nella giornata di studio</h2>
           <p>
             Non è un elenco di versioni. È ciò che l’app cerca di rendere più leggero
-            quando la sala d’attesa è piena e il tempo tra una poltrona e l’altra si misura
-            in minuti.
+            quando la sala d’attesa è piena e il tempo tra una poltrona e l’altra si misura in minuti.
           </p>
         </div>
         <div class="feature-grid">
-          <div class="feature">
+          <article class="feature feature-accent">
+            <span class="feature-kicker">Agenda</span>
             <strong>Tra un appuntamento e l’altro</strong>
-            <span>
-              Apri la giornata in vista giorno o settimana, sposti una visita con un gesto,
-              cerchi il paziente per nome. L’agenda resta sotto mano mentre chiudi la cartella
-              precedente e prepari la successiva — senza tornare al computer della reception.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>La cartella con le radiografie</strong>
-            <span>
-              Sulla scheda del paziente (o sulla singola visita) alleghi foto, RX e PDF
-              dalla libreria o da File. Quando rivedi il caso, le immagini sono già lì,
-              collegate a chi stai per ricevere — non sparse in una chat o in un album generico.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>I compleanni che tornano ogni anno</strong>
-            <span>
-              Un evento ricorrente per il compleanno di un paziente abituale, o per un controllo
-              che si ripete a intervallo fisso: lo crei una volta e StudioCal lo replica.
-              Un piccolo gesto di cura che non dipende dalla memoria di chi è di turno.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>Il file .ics per la segreteria</strong>
-            <span>
-              Esporti il calendario (o una singola visita) in formato .ics e lo passi a chi
-              gestisce l’agenda condivisa: Mail, WhatsApp, File. Così studio e reception
-              restano allineati senza riscrivere tutto a mano.
-            </span>
-          </div>
+            <span>Vista giorno o settimana, spostamenti e ricerca paziente — senza tornare al PC della reception.</span>
+          </article>
+          <article class="feature feature-accent">
+            <span class="feature-kicker">Cartella</span>
+            <strong>Radiografie e note</strong>
+            <span>Allegati sulla scheda paziente o sulla visita: RX e PDF dove li cerchi.</span>
+          </article>
+          <article class="feature feature-accent">
+            <span class="feature-kicker">Ricorrenze</span>
+            <strong>Compleanni e controlli</strong>
+            <span>Eventi annuali o periodici che ripeti una volta sola.</span>
+          </article>
+          <article class="feature feature-accent">
+            <span class="feature-kicker">Segreteria</span>
+            <strong>Export .ics</strong>
+            <span>Passi il calendario (o una singola visita) a chi gestisce l’agenda condivisa.</span>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section section-muted">
+    <section class="section" id="funzioni">
       <div class="container">
         <div class="section-header">
-          <h2>Il calendario della giornata</h2>
-          <p>
-            Mese, settimana e giorno: tre modi di guardare lo stesso flusso di visite.
-            Colori per tipo di evento, ricerca, spostamenti e promemoria pensati per
-            chi lavora tra poltrona e telefono, non per un calendario da ufficio generico.
-          </p>
+          <h2>Cosa puoi fare con StudioCal</h2>
+          <p>Dal calendario della mattina all’export per la segreteria: tutto pensato per lo studio.</p>
         </div>
-        <div class="feature-grid">
-          <div class="feature">
-            <strong>Viste Mese, Settimana e Giorno</strong>
-            <span>
-              Passi dalla panoramica del mese al dettaglio della mattina in pochi tocchi,
-              con un pulsante «Oggi» sempre a portata. Utile quando vuoi capire com’è
-              riempita la settimana e, un attimo dopo, chi arriva alle undici.
-            </span>
+
+        <article class="feature-split">
+          <figure class="feature-split-media">
+            <img src="/assets/studio-banner.png?v=20261121b" width="1024" height="500" alt="StudioCal: calendario professionale mese, settimana e giorno" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">1 · Calendario</span>
+            <h3>Il calendario della giornata</h3>
+            <p>
+              Mese, settimana e giorno: tre modi di guardare lo stesso flusso di visite.
+              Colori per tipo di evento, ricerca, spostamenti e promemoria pensati per
+              chi lavora tra poltrona e telefono.
+            </p>
+            <ul>
+              <li>Pulsante «Oggi» sempre a portata.</li>
+              <li>Cerca per paziente, titolo o note.</li>
+              <li>Drag &amp; drop con conferma (e annulla subito dopo, se serve).</li>
+            </ul>
           </div>
-          <div class="feature">
-            <strong>Cerca paziente, titolo o note</strong>
-            <span>
-              Digiti un cognome, un trattamento o una parola lasciata nelle note
-              e ritrovi l’appuntamento senza scorrere giorni a caso. Ideale quando
-              il paziente richiama e chiede «quando ero venuto l’ultima volta?».
-            </span>
+        </article>
+
+        <article class="feature-split feature-split--reverse">
+          <figure class="feature-split-media" style="display:flex;align-items:center;justify-content:center;padding:2rem;background:linear-gradient(160deg,#1e40af 0%,#0b1220 100%);">
+            <img src="/assets/apps/studiocal-icon.jpg" width="280" height="280" alt="Icona StudioCal iOS" style="border-radius:28%;box-shadow:0 16px 40px rgba(0,0,0,0.35);" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">2 · Pazienti</span>
+            <h3>Cartelle, visite e allegati clinici</h3>
+            <p>
+              L’anagrafica non è un elenco a sé: è collegata a ciò che succede in poltrona.
+              Contatti, note, radiografie e cronologia restano nella stessa cartella.
+            </p>
+            <ul>
+              <li>Scheda paziente con foto e PDF da File o iCloud.</li>
+              <li>Collega un paziente esistente o creane uno al volo sulla visita.</li>
+              <li>Condividi una singola visita in .ics senza esportare tutto.</li>
+            </ul>
           </div>
-          <div class="feature">
-            <strong>Drag &amp; drop con conferma</strong>
-            <span>
-              Una visita si sposta: la trascini su un altro giorno, confermi, e se serve
-              annulli subito dopo. Meno telefonate «possiamo spostare?», meno foglietti
-              appuntati sul monitor.
-            </span>
+        </article>
+
+        <article class="feature-split">
+          <figure class="feature-split-media" style="display:flex;align-items:center;justify-content:center;padding:2rem;background:linear-gradient(160deg,#334155 0%,#1e40af 100%);">
+            <img src="/assets/apps/studiocal-icon-android.png" width="280" height="280" alt="Icona StudioCal Android" style="border-radius:28%;box-shadow:0 16px 40px rgba(0,0,0,0.35);" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">3 · Sync &amp; export</span>
+            <h3>Import, export e iCloud</h3>
+            <p>
+              Lo studio raramente vive su un solo dispositivo. StudioCal parla il linguaggio
+              dei calendari (<strong>.ics</strong>), importa da Mail o WhatsApp, e su Apple
+              può allinearsi tra iPhone e iPad con lo stesso Apple ID.
+            </p>
+            <ul>
+              <li>Export calendario .ics con <strong>StudioCal Pro</strong>.</li>
+              <li>Import .ics con conferma prima di scrivere.</li>
+              <li>Sync iCloud via CloudKit — senza account StudioCal da creare.</li>
+            </ul>
           </div>
-          <div class="feature">
-            <strong>Colori per tipo di evento</strong>
-            <span>
-              Visita, compleanno, impegno personale o tipi che definisci tu: ogni colore
-              racconta a colpo d’occhio cosa riempie lo slot. Dalla guida puoi personalizzare
-              la palette dello studio.
-            </span>
+        </article>
+
+        <article class="feature-split feature-split--reverse">
+          <figure class="feature-split-media">
+            <img src="/assets/studio-banner.png?v=20261121b" width="1024" height="500" alt="StudioCal: agenda studi e cliniche" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">4 · Pro</span>
+            <h3>Gratis e StudioCal Pro</h3>
+            <p>
+              Puoi iniziare senza abbonamento: l’agenda base è lì, con i limiti su pazienti
+              e appuntamenti indicati nel paywall in app.
+              <strong>StudioCal Pro</strong> toglie quei limiti, sblocca l’export completo
+              e l’import dal Calendario di sistema.
+            </p>
+            <ul>
+              <li>Abbonamento gestito da Apple.</li>
+              <li>Su iPhone e iPad la free può mostrare banner pubblicitari.</li>
+              <li>Android in test su Play Console.</li>
+            </ul>
           </div>
-          <div class="feature">
-            <strong>Promemoria e ricorrenze</strong>
-            <span>
-              Notifiche anche ad app chiusa (con permesso attivo), e eventi che si ripetono —
-              annuali o periodici — senza doverli ricreare ogni volta. Compleanni e controlli
-              fissi restano in agenda da soli.
-            </span>
-          </div>
-        </div>
+        </article>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section section-muted" id="panoramica">
       <div class="container">
         <div class="section-header">
-          <h2>Pazienti, visite e allegati clinici</h2>
-          <p>
-            L’anagrafica non è un elenco a sé: è collegata a ciò che succede in poltrona.
-            Contatti, note, radiografie e cronologia degli appuntamenti restano nella
-            stessa cartella, pronti quando apri la giornata.
-          </p>
+          <h2>Identità e anteprima</h2>
+          <p>Stessa famiglia visuale su iOS e Android — banner e icone dello studio.</p>
         </div>
-        <div class="feature-grid">
-          <div class="feature">
-            <strong>Scheda paziente</strong>
-            <span>
-              Nome, contatti, annotazioni cliniche o organizzative, foto e radiografie
-              dalla libreria. Una scheda che cresce con i ritorni in studio, non un biglietto
-              da visita dimenticato in un cassetto.
-            </span>
+        <div class="showcase">
+          <div class="showcase-grid showcase-grid--2">
+            <figure>
+              <img src="/assets/studio-banner.png?v=20261121b" width="1024" height="500" alt="Banner StudioCal" loading="lazy">
+              <figcaption>Calendario professionale per visite e pazienti.</figcaption>
+            </figure>
+            <figure>
+              <div style="display:flex;gap:1.25rem;align-items:center;justify-content:center;padding:2rem;background:var(--ink-deep);min-height:200px;">
+                <img src="/assets/apps/studiocal-icon.jpg" width="120" height="120" alt="Icona iOS" style="border-radius:26px;">
+                <img src="/assets/apps/studiocal-icon-android.png" width="120" height="120" alt="Icona Android" style="border-radius:26px;">
+              </div>
+              <figcaption>Icone dedicate per iOS e Android.</figcaption>
+            </figure>
           </div>
-          <div class="feature">
-            <strong>Visite collegate in un attimo</strong>
-            <span>
-              Crei l’appuntamento e colleghi un paziente già in elenco, oppure ne crei uno
-              nuovo al volo mentre sei ancora sul calendario. Meno passaggi, meno rischio
-              di lasciare la visita «orfana» di un nome.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>Allegati sulla visita o sul paziente</strong>
-            <span>
-              Foto, PDF e documenti da File o iCloud, con anteprima integrata.
-              La RX del controllo precedente e il referto inviato ieri stanno dove li cerchi
-              mentre il paziente si siede.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>Condivisione di una singola visita</strong>
-            <span>
-              Dalla scheda di modifica esporti un solo appuntamento in .ics —
-              utile per avvisare un collega, aggiornare la segreteria o archiviare
-              un impegno senza esportare tutto il calendario.
-            </span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-muted">
-      <div class="container">
-        <div class="section-header">
-          <h2>Import, export e iCloud</h2>
-          <p>
-            Lo studio raramente vive su un solo dispositivo. StudioCal parla il linguaggio
-            dei calendari (.ics), importa da Mail o WhatsApp, e su Apple può allinearsi
-            tra iPhone e iPad con lo stesso Apple ID.
-          </p>
-        </div>
-        <div class="feature-grid">
-          <div class="feature">
-            <strong>Export calendario .ics (Pro)</strong>
-            <span>
-              Generi un file completo con le visite StudioCal e lo consegni a chi gestisce
-              l’agenda di studio — o lo archivi come copia di lavoro. Un modo concreto
-              per far uscire l’agenda dall’app senza riscrivere le date a mano.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>Import .ics da dove ti arriva</strong>
-            <span>
-              Mail, WhatsApp, File o un’altra app: apri il file, confermi prima di importare,
-              e gli eventi entrano in StudioCal. Utile quando la segreteria ti manda
-              un blocco di appuntamenti o un collega condivide una giornata.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>Calendario iOS (Pro)</strong>
-            <span>
-              Con autorizzazione, puoi portare eventi dal Calendario di sistema dentro StudioCal.
-              Così ciò che già vive sul telefono non resta isolato dall’agenda dello studio.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>Sync iCloud via CloudKit</strong>
-            <span>
-              Stesso Apple ID su iPhone e iPad: pazienti, visite e allegati restano allineati
-              mentre ti muovi tra poltrona e ufficio. Niente account StudioCal da creare —
-              usi l’infrastruttura Apple che già conosci.
-            </span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>Identità visiva</h2>
-          <p>Icone dedicate per iOS e Android — stessa famiglia, stesso studio.</p>
-        </div>
-        <div class="icon-duo">
-          <img src="/assets/apps/studiocal-icon.jpg" width="140" height="140" alt="Icona StudioCal iOS">
-          <img src="/assets/apps/studiocal-icon-android.png" width="140" height="140" alt="Icona StudioCal Android">
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-muted">
-      <div class="container">
-        <div class="pro-banner">
-          <h3>Versione gratuita e StudioCal Pro</h3>
-          <p>
-            Puoi iniziare senza abbonamento: l’agenda base è lì, con i limiti su pazienti
-            e appuntamenti totali indicati nel paywall in app — abbastanza per capire se
-            il ritmo dello studio ti ci sta.
-            <strong>StudioCal Pro</strong> (abbonamento Apple) toglie quei limiti, sblocca
-            l’export completo del calendario, l’import dal Calendario di sistema e condizioni
-            più ampie sugli import .ics. Su iPhone e iPad la versione gratuita può mostrare
-            banner pubblicitari.
-          </p>
         </div>
       </div>
     </section>
@@ -332,31 +277,19 @@
         <div class="steps">
           <div class="step-card">
             <h3>Crea i pazienti</h3>
-            <p>
-              Dalla tab Pazienti aggiungi anagrafiche, contatti e le prime note —
-              così quando arriva l’appuntamento il nome è già lì.
-            </p>
+            <p>Dalla tab Pazienti aggiungi anagrafiche, contatti e le prime note.</p>
           </div>
           <div class="step-card">
             <h3>Pianifica le visite</h3>
-            <p>
-              Sul calendario: nuovo evento, tipo visita, paziente collegato e promemoria.
-              Colori e viste mese/settimana/giorno ti aiutano a leggere la giornata.
-            </p>
+            <p>Sul calendario: nuovo evento, paziente collegato e promemoria.</p>
           </div>
           <div class="step-card">
             <h3>Allega documenti</h3>
-            <p>
-              Foto cliniche, radiografie o PDF sulla visita o sulla scheda paziente,
-              pronti al controllo successivo.
-            </p>
+            <p>Foto cliniche, radiografie o PDF sulla visita o sulla scheda.</p>
           </div>
           <div class="step-card">
             <h3>Esporta o sincronizza</h3>
-            <p>
-              Con Pro: export .ics per la segreteria, oppure sync iCloud tra i tuoi
-              dispositivi Apple.
-            </p>
+            <p>Con Pro: export .ics per la segreteria, oppure sync iCloud.</p>
           </div>
         </div>
       </div>
@@ -397,6 +330,6 @@
     data-apple="https://apps.apple.com/it/app/studiocal/id6760969305"
     data-label="Scarica StudioCal gratis sull’App Store"></div>
 
-  <script src="/js/main.js?v=20261112a" defer></script>
+  <script src="/js/main.js?v=20261121b" defer></script>
 </body>
 </html>

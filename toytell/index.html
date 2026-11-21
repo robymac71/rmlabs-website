@@ -8,19 +8,21 @@
   <link rel="canonical" href="https://rmlabs.dev/toytell/">
   <meta property="og:title" content="ToyTell · Fiabe da inventare insieme">
   <meta property="og:description" content="Quella mezz’ora sul divano in cui un giocattolo diventa eroe: ToyTell aiuta famiglie a creare fiabe in italiano, da leggere e riascoltare insieme.">
-  <meta property="og:image" content="https://rmlabs.dev/assets/apps/toytell-hero-banner-nov2026.jpg">
+  <meta property="og:image" content="https://rmlabs.dev/assets/toytell/hero.jpg?v=20261121b">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="it_IT">
   <meta property="og:url" content="https://rmlabs.dev/toytell/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ToyTell · Fiabe da inventare insieme">
   <meta name="twitter:description" content="Fiabe in italiano nate dai giocattoli e dalla fantasia dei bambini, pensate per essere lette ad alta voce con un adulto.">
-  <meta name="twitter:image" content="https://rmlabs.dev/assets/apps/toytell-hero-banner-nov2026.jpg">
+  <meta name="twitter:image" content="https://rmlabs.dev/assets/toytell/hero.jpg?v=20261121b">
   <link rel="icon" href="/assets/apps/toytell-icon.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="/assets/apps/toytell-icon.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261112a">
+  <link rel="stylesheet" href="/css/style.css?v=20261121b">
+  <link rel="stylesheet" href="/css/themes.css?v=20261121b">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -29,7 +31,7 @@
         "@type": "SoftwareApplication",
         "name": "ToyTell",
         "url": "https://rmlabs.dev/toytell/",
-        "image": "https://rmlabs.dev/assets/apps/toytell-hero-banner-nov2026.jpg",
+        "image": "https://rmlabs.dev/assets/toytell/hero.jpg?v=20261121b",
         "applicationCategory": "EntertainmentApplication",
         "operatingSystem": "iOS, Android",
         "downloadUrl": [
@@ -51,7 +53,7 @@
   }
   </script>
 </head>
-<body>
+<body class="theme-toytell">
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="/">
@@ -65,6 +67,7 @@
       <ul class="nav-links">
         <li><a href="/">Home</a></li>
         <li><a href="/toytell/" aria-current="page">ToyTell</a></li>
+        <li><a href="/toytell/#funzioni">Funzioni</a></li>
         <li><a href="/toytell/supporto.html">Supporto</a></li>
         <li><a href="/#contatti">Contatti</a></li>
       </ul>
@@ -72,36 +75,55 @@
   </header>
   <main>
     <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <div class="eyebrow">Per famiglie · iPhone, iPad e Android</div>
-          <h1>ToyTell</h1>
-          <p class="lead">
-            C’è un momento, la sera o nel pomeriggio della domenica, in cui un bambino alza un peluche
-            e chiede: «E adesso che storia gli raccontiamo?» <strong>ToyTell</strong> nasce proprio lì —
-            non per sostituire l’adulto, ma per dare una mano a chi vuole inventare insieme.
-          </p>
-          <p class="lead" style="font-size:1.05rem;margin-top:0.75rem;">
-            Bastano poche parole, la foto del dinosauro preferito o il disegno appena finito di colorare:
-            l’app costruisce una <strong>fiaba in italiano</strong>, con un ritmo caldo e naturale,
-            pensata per essere letta ad alta voce — con te seduto accanto, non con lo schermo lasciato
-            al bambino da solo.
-          </p>
-          <div class="store-buttons">
-            <a class="store-btn" href="https://apps.apple.com/it/app/toytell/id6772091710" target="_blank" rel="noopener noreferrer"><span aria-hidden="true"></span><span><small>Scarica su</small><strong>App Store</strong></span></a>
-            <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.robertomaricchiolo.toytell" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">▶</span><span><small>Disponibile su</small><strong>Google Play</strong></span></a>
+      <div class="container">
+        <figure class="dmi-promo-banner">
+          <img
+            src="/assets/toytell/hero.jpg?v=20261121b"
+            width="1600"
+            height="1066"
+            alt="ToyTell — inventiamo storie insieme: fiabe da idea, foto o disegno"
+          >
+        </figure>
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">Per famiglie · iPhone, iPad e Android</div>
+            <div class="app-hero-brand">
+              <img src="/assets/toytell/hero-new.jpg?v=20261121b" width="72" height="72" alt="Icona ToyTell">
+              <div>
+                <h1>ToyTell</h1>
+                <p class="app-tagline">Inventiamo storie insieme</p>
+              </div>
+            </div>
+            <p class="lead">
+              C’è un momento, la sera o nel pomeriggio della domenica, in cui un bambino alza un peluche
+              e chiede: «E adesso che storia gli raccontiamo?» <strong>ToyTell</strong> nasce proprio lì —
+              non per sostituire l’adulto, ma per dare una mano a chi vuole inventare insieme.
+            </p>
+            <p class="lead" style="font-size:1.05rem;margin-top:0.75rem;">
+              Bastano poche parole, la foto del dinosauro preferito o il disegno appena finito di colorare:
+              l’app costruisce una <strong>fiaba in italiano</strong>, con un ritmo caldo e naturale,
+              pensata per essere letta ad alta voce — con te seduto accanto.
+            </p>
+            <div class="store-buttons">
+              <a class="store-btn" href="https://apps.apple.com/it/app/toytell/id6772091710" target="_blank" rel="noopener noreferrer"><span aria-hidden="true"></span><span><small>Scarica su</small><strong>App Store</strong></span></a>
+              <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.robertomaricchiolo.toytell" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">▶</span><span><small>Disponibile su</small><strong>Google Play</strong></span></a>
+            </div>
+            <p style="margin-top:1rem;color:var(--text-muted);font-size:0.9rem;">
+              Ideale all’incirca tra i <strong>4 e i 10 anni</strong>, sempre con un adulto vicino.
+            </p>
           </div>
-          <p style="margin-top:1rem;color:var(--text-muted);font-size:0.9rem;">
-            Ideale all’incirca tra i <strong>4 e i 10 anni</strong>, sempre con un adulto vicino.
-          </p>
-        </div>
-        <div class="hero-card">
-          <video class="hero-video" src="/assets/apps/toytell-demo.mp4" poster="/assets/apps/toytell-hero-banner-nov2026.jpg?v=20261114" autoplay muted loop playsinline controls aria-label="Demo ToyTell"></video>
+          <div class="hero-card" style="padding:1rem;display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,#7c3aed 0%,#db2777 100%);">
+            <img
+              src="/assets/toytell/hero-new.jpg?v=20261121b"
+              alt="ToyTell — libro magico e castello"
+              style="width:min(100%,280px);border-radius:28%;box-shadow:0 20px 50px rgba(0,0,0,0.25);"
+            >
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="perche">
+    <section class="section section-muted" id="perche">
       <div class="container">
         <div class="section-header">
           <h2>Perché l’abbiamo fatta così</h2>
@@ -113,251 +135,200 @@
           </p>
         </div>
         <div class="feature-grid">
-          <div class="feature">
+          <article class="feature feature-accent">
+            <span class="feature-kicker">Insieme</span>
             <strong>La magia parte dal bambino</strong>
-            <span>
-              Il punto di partenza non è un menu di temi astratti, ma ciò che il bambino ha
-              già tra le mani o nella testa: un giocattolo, un personaggio inventato,
-              una scena disegnata. Così la storia gli appartiene davvero.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>Testo da leggere, non da “consumare”</strong>
-            <span>
-              Le frasi sono pensate per chi legge ad alta voce: ritmo chiaro, pause naturali,
-              un tono da fiaba italiana. L’adulto resta il narratore; ToyTell prepara la trama.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>Un libro che cresce in famiglia</strong>
-            <span>
-              Le storie che vi piacciono di più restano nel libro delle fiabe, sul dispositivo,
-              pronte da rileggere o riascoltare. Non è un feed infinito: è una piccola raccolta
-              vostra.
-            </span>
-          </div>
-          <div class="feature">
+            <span>Il punto di partenza è ciò che ha tra le mani o nella testa: giocattolo, personaggio, disegno.</span>
+          </article>
+          <article class="feature feature-accent">
+            <span class="feature-kicker">Lettura</span>
+            <strong>Testo da leggere ad alta voce</strong>
+            <span>Ritmo chiaro e tono da fiaba italiana. L’adulto resta il narratore; ToyTell prepara la trama.</span>
+          </article>
+          <article class="feature feature-accent">
+            <span class="feature-kicker">Libro</span>
+            <strong>Una raccolta di famiglia</strong>
+            <span>Le preferite restano nel libro delle fiabe sul dispositivo, pronte da rileggere o riascoltare.</span>
+          </article>
+          <article class="feature feature-accent">
+            <span class="feature-kicker">Genitori</span>
             <strong>Adulto sempre al centro</strong>
-            <span>
-              Acquisti, impostazioni e funzioni delicate stanno nell’area genitori.
-              L’app è pensata per usarla insieme, non come passatempo solitario.
-            </span>
-          </div>
+            <span>Acquisti e impostazioni delicate stanno nell’area genitori — pensata per usarla insieme.</span>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section section-muted">
+    <section class="section" id="funzioni">
       <div class="container">
         <div class="section-header">
-          <h2>Come nasce una fiaba</h2>
-          <p>
-            Tre strade diverse, stesso risultato: una storia nuova, in italiano,
-            costruita intorno a ciò che il bambino ha scelto di portare in scena.
-          </p>
+          <h2>Cosa puoi fare con ToyTell</h2>
+          <p>Tre strade diverse, stesso risultato: una storia nuova, in italiano, intorno a ciò che il bambino ha portato in scena.</p>
         </div>
-        <div class="feature-grid">
-          <div class="feature">
-            <strong>Con le parole</strong>
-            <span>
-              Scrivete insieme due o tre dettagli — «un robot che ha paura del buio»,
-              «la bicicletta rossa della nonna» — e ToyTell sviluppa personaggi,
-              conflitto e finale con tono da fiaba.
-            </span>
+
+        <article class="feature-split">
+          <figure class="feature-split-media">
+            <img src="/assets/toytell/feat-01.jpg?v=20261121b" width="1600" height="1600" alt="ToyTell: crea una fiaba da un’idea, da una foto o da un disegno" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">1 · Crea</span>
+            <h3>Da un’idea, da una foto o da un disegno</h3>
+            <p>
+              Aprite ToyTell insieme e scegliete come partire. Bastano poche parole,
+              la foto del peluche sul tappeto o il foglio ancora sul tavolo:
+              l’app costruisce una <strong>fiaba unica</strong> intorno a quello spunto.
+            </p>
+            <ul>
+              <li><strong>Da un’idea</strong> — raccontate due o tre dettagli e nasce la trama.</li>
+              <li><strong>Da una foto</strong> — il giocattolo o l’album diventano ispirazione.</li>
+              <li><strong>Da un disegno</strong> — il personaggio colorato ieri sera entra in scena.</li>
+            </ul>
           </div>
-          <div class="feature">
-            <strong>Con una foto dalla galleria</strong>
-            <span>
-              Aprite l’album e scegliete il peluche, la Lego, il disegno colorato ieri sera.
-              Quell’immagine diventa lo spunto da cui parte l’avventura.
-            </span>
+        </article>
+
+        <article class="feature-split feature-split--reverse">
+          <figure class="feature-split-media">
+            <img src="/assets/toytell/feat-03.jpg?v=20261121b" width="1600" height="1600" alt="ToyTell: crea fiabe uniche dalla fantasia del bambino" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">2 · Fantasia</span>
+            <h3>Crea fiabe uniche dalla vostra fantasia</h3>
+            <p>
+              «Un drago gentile che diventa amico di un cavaliere»: basta un’idea,
+              un personaggio o una breve descrizione. ToyTell la trasforma in una
+              <strong>storia tutta nuova</strong>, con ritmo da leggere ad alta voce.
+            </p>
+            <ul>
+              <li>Frasi pensate per chi legge, non per uno scroll infinito.</li>
+              <li>Tono caldo e naturale, in italiano.</li>
+              <li>Lo schermo resta uno strumento: il centro della serata siete voi.</li>
+            </ul>
           </div>
-          <div class="feature">
-            <strong>Con la fotocamera</strong>
-            <span>
-              Scattate al volo: il pupazzo sul letto, il castello di cuscini, il foglio
-              ancora sul tavolo. In pochi secondi avete il materiale per una storia nuova.
-            </span>
+        </article>
+
+        <article class="feature-split">
+          <figure class="feature-split-media">
+            <img src="/assets/toytell/feat-02.jpg?v=20261121b" width="1600" height="1600" alt="ToyTell: foto in fiaba, voci e biblioteca personale" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">3 · Arricchisci</span>
+            <h3>Foto, ascolto e biblioteca</h3>
+            <p>
+              Con <strong>ToyTell Deluxe</strong> (acquisto una tantum) potete portare la fiaba
+              un passo oltre: dalla foto alla scena illustrata, dalla voce di sistema
+              a quella naturale, fino alle storie salvate nel libro di famiglia.
+            </p>
+            <ul>
+              <li>Trasforma una foto in punto di partenza ancora più ricco.</li>
+              <li>Ascolta con voce di sistema, voce naturale (IA) o la vostra.</li>
+              <li>Salva le preferite nella <strong>Biblioteca</strong> e riascoltale quando vuoi.</li>
+            </ul>
           </div>
-          <div class="feature">
-            <strong>Poi, la lettura insieme</strong>
-            <span>
-              Aprite la fiaba, leggete a turno, fate le voci. È il pezzo che conta:
-              lo schermo resta uno strumento, non il centro della serata.
-            </span>
+        </article>
+
+        <article class="feature-split feature-split--reverse">
+          <figure class="feature-split-media">
+            <img src="/assets/toytell/feat-05.jpg?v=20261121b" width="1600" height="1600" alt="ToyTell: racconta la fiaba con la voce di mamma o papà" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">4 · La vostra voce</span>
+            <h3>Racconta la fiaba con la tua voce</h3>
+            <p>
+              Registrate mamma o papà sulle storie salvate. Così, anche una sera in cui
+              siete fuori casa, il bambino può riascoltare <strong>quella voce familiare</strong>
+              sulla fiaba che conoscete entrambi.
+            </p>
+            <ul>
+              <li>Registrazione pensata per l’adulto, non per le dita curiose.</li>
+              <li>Ideale per la nanna o i viaggi in auto.</li>
+              <li>Sempre voi a decidere se e quando avviare l’ascolto.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="feature-split">
+          <figure class="feature-split-media">
+            <img src="/assets/toytell/feat-04.jpg?v=20261121b" width="1600" height="1600" alt="ToyTell: idea, foto, ascolto, registrazione e biblioteca" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">5 · Routine</span>
+            <h3>Una serata tipo, senza tutorial lunghi</h3>
+            <p>
+              Aprite l’app insieme, create la fiaba, fate le voci, e se “resta”
+              mettetela in biblioteca. Domani sera sarà già lì, pronta per il bis —
+              i bambini amano la ripetizione.
+            </p>
+            <ul>
+              <li>Ideale tra i 4 e i 10 anni, con un adulto vicino.</li>
+              <li>Permessi (foto, microfono) solo quando servono.</li>
+              <li>Disponibile su iPhone, iPad e Android.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="panoramica">
+      <div class="container">
+        <div class="section-header">
+          <h2>L’app in un colpo d’occhio</h2>
+          <p>Dalla fantasia sul divano alla voce di casa: tre momenti tipici con ToyTell.</p>
+        </div>
+        <div class="showcase">
+          <div class="showcase-grid">
+            <figure>
+              <img src="/assets/toytell/feat-01.jpg?v=20261121b" width="1600" height="1600" alt="Crea da idea, foto o disegno" loading="lazy">
+              <figcaption>Crea da un’idea, una foto o un disegno.</figcaption>
+            </figure>
+            <figure>
+              <img src="/assets/toytell/feat-03.jpg?v=20261121b" width="1600" height="1600" alt="Fiaba dalla fantasia" loading="lazy">
+              <figcaption>Fiabe uniche dalla vostra fantasia.</figcaption>
+            </figure>
+            <figure>
+              <img src="/assets/toytell/feat-05.jpg?v=20261121b" width="1600" height="1600" alt="Voce di mamma o papà" loading="lazy">
+              <figcaption>Ascolto con la voce di mamma o papà.</figcaption>
+            </figure>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="deluxe">
       <div class="container">
         <div class="section-header">
           <h2>ToyTell Deluxe</h2>
           <p>
             Un acquisto in-app <strong>una tantum</strong>, gestito da App Store o Google Play,
-            per chi vuole portare la fiaba un passo oltre: voce, immagine e la presenza
-            di mamma o papà anche quando non possono leggere di persona.
+            per voce, illustrazione e la presenza di mamma o papà anche quando non possono leggere di persona.
           </p>
         </div>
         <div class="feature-grid">
           <div class="feature">
             <strong>Fiaba dalla foto</strong>
-            <span>
-              Trasforma giocattoli, oggetti e disegni in punti di partenza ancora più ricchi:
-              ideale quando il bambino dice «raccontami di questo» e alza qualcosa verso di te.
-            </span>
+            <span>Trasforma giocattoli, oggetti e disegni in punti di partenza ancora più ricchi.</span>
           </div>
           <div class="feature">
             <strong>Voce naturale</strong>
-            <span>
-              Ascoltate la storia con una lettura fluida e naturale (con connessione),
-              utile nei viaggi in auto o quando le mani sono impegnate — sempre con
-              l’adulto che sceglie se e quando avviare l’ascolto.
-            </span>
+            <span>Ascolto fluido (con connessione), utile in auto o quando le mani sono impegnate.</span>
           </div>
           <div class="feature">
-            <strong>Illustrazione della storia</strong>
-            <span>
-              Una scena ispirata alla fiaba appena nata, da guardare insieme mentre
-              leggete o da ritrovare nel libro delle fiabe.
-            </span>
+            <strong>Illustrazione</strong>
+            <span>Una scena ispirata alla fiaba, da guardare insieme o ritrovare nel libro.</span>
           </div>
           <div class="feature">
             <strong>La vostra voce</strong>
-            <span>
-              Registrate mamma o papà sulle storie salvate. Così, anche una sera in cui
-              siete fuori casa, il bambino può riascoltare quella voce familiare
-              sulla fiaba che conoscete entrambi.
-            </span>
+            <span>Registrate mamma o papà sulle storie salvate — il suono di casa sulla fiaba.</span>
           </div>
         </div>
       </div>
     </section>
 
     <section class="section section-muted">
-      <div class="container">
-        <div class="section-header">
-          <h2>Il libro delle fiabe</h2>
-          <p>
-            Non tutte le storie restano. Quelle che vi hanno fatto ridere, o che avete
-            riletto tre sere di fila, meritano un posto fisso. Il libro delle fiabe
-            è la vostra raccolta sul dispositivo: ordine semplice, storie a portata di tap.
-          </p>
-        </div>
-        <div class="feature-grid">
-          <div class="feature">
-            <strong>Salva ciò che conta</strong>
-            <span>
-              Tenete le preferite, con testo e — se le avete generate — illustrazione
-              e narrazione già pronte per un nuovo ascolto.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>Rileggere, non ricominciare da zero</strong>
-            <span>
-              I bambini amano la ripetizione. Potete tornare sulla stessa avventura
-              senza dover inventare tutto di nuovo ogni sera.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>Area genitori</strong>
-            <span>
-              Acquisto Deluxe, ripristino e impostazioni delicate stanno dietro
-              un’area pensata per l’adulto, non per le dita curiose.
-            </span>
-          </div>
-          <div class="feature">
-            <strong>Permessi solo quando servono</strong>
-            <span>
-              Fotocamera, galleria e microfono si chiedono nel momento in cui li usate,
-              non “perché sì”. Decidete voi cosa condividere e quando.
-            </span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>L’app in azione</h2>
-          <p>
-            Dalla foto sul tappeto alla pagina illustrata, fino alla voce che conosce
-            già a memoria. Due momenti tipici di una serata con ToyTell.
-          </p>
-        </div>
-        <div style="display:grid;gap:1.5rem;max-width:960px;margin-inline:auto;">
-          <figure class="news-feature">
-            <img src="/assets/apps/toytell-azione-nov2026.jpg?v=20261114" width="1200" height="630" alt="ToyTell: dalla foto del giocattolo alla fiaba illustrata e alla voce di mamma o papà" loading="lazy">
-            <figcaption>
-              Scatta, genera la fiaba e ascoltala: flusso completo dalla foto sul tappeto alla voce di casa.
-            </figcaption>
-          </figure>
-          <figure class="news-feature">
-            <img src="/assets/apps/toytell-azione-fiaba.png" width="1024" height="682" alt="Un bambino e un adulto usano ToyTell: dalla foto di un giocattolo nasce una fiaba illustrata" loading="lazy">
-            <figcaption>
-              Scattate, scegliete un disegno o descrivete insieme il personaggio:
-              in pochi istanti avete una storia da aprire e leggere sul divano.
-            </figcaption>
-          </figure>
-          <figure class="news-feature">
-            <img src="/assets/apps/toytell-azione-voce.png" width="682" height="1024" alt="ToyTell: ascolto della fiaba con voce naturale o registrazione di mamma e papà" loading="lazy">
-            <figcaption>
-              Ascoltate con voce naturale, oppure registrate la vostra: così la fiaba
-              porta anche il suono di casa, non solo le parole sullo schermo.
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-muted">
-      <div class="container">
-        <div class="section-header">
-          <h2>Una serata tipo</h2>
-          <p>Non serve un tutorial lungo: basta sedersi e seguire il ritmo del bambino.</p>
-        </div>
-        <div class="steps">
-          <div class="step-card">
-            <h3>1. Aprite ToyTell insieme</h3>
-            <p>
-              Spegnete le distrazioni, prendete il giocattolo o il foglio, e decidete
-              se partire da una foto, da un disegno o da poche parole dette a voce.
-            </p>
-          </div>
-          <div class="step-card">
-            <h3>2. Create la fiaba</h3>
-            <p>
-              Confermate lo spunto e lasciate che nasca il testo. Poi leggetelo
-              una prima volta: correggete il tono, ridete dei nomi strani, fate le voci.
-            </p>
-          </div>
-          <div class="step-card">
-            <h3>3. Arricchite (se volete)</h3>
-            <p>
-              Con Deluxe potete aggiungere illustrazione, ascolto naturale o
-              la registrazione di mamma e papà — senza fretta, solo se vi va.
-            </p>
-          </div>
-          <div class="step-card">
-            <h3>4. Salvate nel libro</h3>
-            <p>
-              Se la storia “resta”, mettetela in biblioteca. Domani sera sarà già lì,
-              pronta per il bis.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
       <div class="container contact-box">
         <h2>Scarica ToyTell</h2>
         <p class="lead">
           Disponibile su App Store e Google Play. L’app di base è gratuita;
-          <strong>ToyTell Deluxe</strong> è un acquisto opzionale, una tantum,
-          per chi vuole voce, illustrazioni e registrazione familiare.
+          <strong>ToyTell Deluxe</strong> è un acquisto opzionale, una tantum.
         </p>
         <div class="store-buttons">
           <a class="store-btn" href="https://apps.apple.com/it/app/toytell/id6772091710" target="_blank" rel="noopener noreferrer"><span aria-hidden="true"></span><span><small>Scarica su</small><strong>App Store</strong></span></a>
@@ -386,6 +357,6 @@
     data-apple="https://apps.apple.com/it/app/toytell/id6772091710" data-play="https://play.google.com/store/apps/details?id=com.robertomaricchiolo.toytell"
     data-label="Scarica ToyTell gratis — storie per la nanna"></div>
 
-  <script src="/js/main.js?v=20261112a" defer></script>
+  <script src="/js/main.js?v=20261121b" defer></script>
 </body>
 </html>

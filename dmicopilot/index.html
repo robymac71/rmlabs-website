@@ -12,24 +12,25 @@
   <meta property="og:title" content="DMi Copilot · Nuova grafica e nuove funzioni">
   <meta property="og:description" content="Il copilota intelligente per la tua BYD: pianifica viaggi, gestisci batteria e benzina, trova le ricariche. Nuova UI e logo, CarPlay e Android Auto.">
   <meta property="og:url" content="https://rmlabs.dev/dmicopilot/">
-  <meta property="og:image" content="https://rmlabs.dev/assets/dmicopilot-banner-nov2026.jpg?v=20261115">
+  <meta property="og:image" content="https://rmlabs.dev/assets/dmicopilot/hero-tramonto.jpg?v=20261121b">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="DMi Copilot · Nuova grafica e nuove funzioni">
   <meta name="twitter:description" content="Il copilota intelligente per la tua BYD. Nuova UI Dove → Opzioni → Piano, ricariche, due veicoli, CarPlay.">
-  <meta name="twitter:image" content="https://rmlabs.dev/assets/dmicopilot-banner-nov2026.jpg?v=20261115">
+  <meta name="twitter:image" content="https://rmlabs.dev/assets/dmicopilot/hero-tramonto.jpg?v=20261121b">
   <link rel="icon" href="/assets/apps/dmicopilot-icon.jpg?v=20261114" type="image/jpeg">
   <link rel="apple-touch-icon" href="/assets/apps/dmicopilot-icon.jpg?v=20261114">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261115a">
+  <link rel="stylesheet" href="/css/style.css?v=20261121b">
+  <link rel="stylesheet" href="/css/themes.css?v=20261121b">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "DMi Copilot",
     "url": "https://rmlabs.dev/dmicopilot/",
-    "image": "https://rmlabs.dev/assets/dmicopilot-banner-nov2026.jpg?v=20261115",
+    "image": "https://rmlabs.dev/assets/dmicopilot/hero-tramonto.jpg?v=20261121b",
     "applicationCategory": "TravelApplication",
     "operatingSystem": "iOS 18, iOS 17, Android",
     "downloadUrl": [
@@ -60,7 +61,7 @@
   }
   </script>
 </head>
-<body>
+<body class="theme-dmi">
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="/">
@@ -74,7 +75,7 @@
       <ul class="nav-links">
         <li><a href="/">Home</a></li>
         <li><a href="/dmicopilot/" aria-current="page">DMi Copilot</a></li>
-        <li><a href="/dmicopilot/#novita">Novità</a></li>
+        <li><a href="/dmicopilot/#funzioni">Funzioni</a></li>
         <li><a href="/dmicopilot/#perche">Perché</a></li>
         <li><a href="/dmicopilot/supporto.html">Supporto</a></li>
         <li><a href="/#contatti">Contatti</a></li>
@@ -87,25 +88,25 @@
       <div class="container">
         <figure class="dmi-promo-banner">
           <img
-            src="/assets/dmicopilot-banner-nov2026.jpg?v=20261115"
-            width="1024"
-            height="576"
-            alt="DMi Copilot — DMi Copilot al tramonto: pianificazione Dove → Opzioni → Piano, BYD Atto 2 e CarPlay"
+            src="/assets/dmicopilot/hero-tramonto.jpg?v=20261121b"
+            width="1600"
+            height="900"
+            alt="DMi Copilot — il copilota intelligente per la tua BYD: pianifica, gestisci batteria e ricariche, CarPlay"
           >
         </figure>
         <div class="hero-grid">
           <div>
-            <div class="eyebrow">Nuova grafica · BYD Super DM-i &amp; Full Electric · iOS &amp; Android</div>
-            <div class="dmi-hero-brand">
+            <div class="eyebrow">BYD Super DM-i &amp; Full Electric · iOS &amp; Android</div>
+            <div class="app-hero-brand">
               <img
                 src="/assets/apps/dmicopilot-icon.jpg?v=20261114"
                 width="72"
                 height="72"
-                alt="Nuovo logo DMi Copilot"
+                alt="Logo DMi Copilot"
               >
               <div>
                 <h1>DMi Copilot</h1>
-                <p class="dmi-tagline">Il copilota intelligente per la tua BYD</p>
+                <p class="app-tagline">Il copilota intelligente per la tua BYD</p>
               </div>
             </div>
             <p class="lead">
@@ -136,7 +137,7 @@
           <div class="hero-card" style="padding:1rem;display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,#0ea5e9 0%,#22c55e 100%);">
             <img
               src="/assets/apps/dmicopilot-icon.jpg?v=20261114"
-              alt="Nuovo logo DMi Copilot — fulmine, strada e foglia"
+              alt="Logo DMi Copilot — fulmine, strada e foglia"
               style="width:min(100%,280px);border-radius:28%;box-shadow:0 20px 50px rgba(0,0,0,0.25);"
             >
           </div>
@@ -144,118 +145,7 @@
       </div>
     </section>
 
-    <section class="section section-muted" id="novita">
-      <div class="container">
-        <div class="section-header">
-          <h2>Nuova grafica e nuove funzioni</h2>
-          <p>Interfaccia ripensata, logo rinnovato e strumenti più concreti sul percorso — su iPhone e Android.</p>
-        </div>
-
-        <div class="support-box" style="margin-bottom:2rem;">
-          <p class="lead" style="margin-bottom:0;">
-            <strong>In evidenza:</strong> nuovo logo e UI a tre step
-            (<strong>1.&nbsp;Dove → 2.&nbsp;Opzioni → 3.&nbsp;Piano</strong>, con partenza, destinazione,
-            percorsi consigliati e mappa sotto controllo. Stesse idee sul telefono e, dove supportato,
-            sul display dell’auto con <strong>CarPlay</strong>.
-          </p>
-        </div>
-
-        <div class="feature-grid" style="margin-bottom:2rem;">
-          <article class="feature feature-accent">
-            <span class="feature-kicker">Nuova UI</span>
-            <strong>Pianifica i tuoi viaggi</strong>
-            <span>
-              Flusso Dove / Opzioni / Piano: indichi partenza e destinazione, scegli il percorso
-              consigliato e vedi subito durata, km e anteprima mappa.
-            </span>
-          </article>
-          <article class="feature feature-accent">
-            <span class="feature-kicker">Energia</span>
-            <strong>Gestisci batteria e benzina</strong>
-            <span>
-              Piano energetico su Super DM-i (EV / HEV / SOC / SAVE) e Full Electric: stime allineate
-              a quello che vedi sul cruscotto.
-            </span>
-          </article>
-          <article class="feature feature-accent">
-            <span class="feature-kicker">Ricariche</span>
-            <strong>Trova e pianifica le ricariche</strong>
-            <span>
-              Soste lungo il percorso (anche in sola andata), colonnine più vicine e indirizzi più
-              affidabili; copia nome e posizione o apri l’app del gestore quando riconosciuto.
-            </span>
-          </article>
-          <article class="feature feature-accent">
-            <span class="feature-kicker">Veicoli</span>
-            <strong>BYD DM-i e Full Electric</strong>
-            <span>
-              Profili per i modelli supportati e, con sync cloud, gestione fino a
-              <strong>due veicoli BYD</strong> con un tap per cambiare auto.
-            </span>
-          </article>
-          <article class="feature">
-            <strong>Import da Google Maps</strong>
-            <span>
-              Incolli o condividi coordinate e destinazione: un gesto e il percorso è pronto in DMi Copilot.
-            </span>
-          </article>
-          <article class="feature">
-            <strong>Copia nome e posizione colonnine</strong>
-            <span>
-              Metti negli appunti i dati della sosta e li usi nel navigatore o nell’app del gestore
-              (Plenitude, Enel/Ewiva, IONITY e altre).
-            </span>
-          </article>
-          <article class="feature">
-            <strong>Stime di viaggio più accurate</strong>
-            <span>
-              Batteria a destinazione, consumi e tratti consigliati aggiornati: meno sorprese in autostrada.
-            </span>
-          </article>
-          <article class="feature">
-            <strong>CarPlay e Android Auto</strong>
-            <span>
-              Info compatte sul display: tratto, modalità, target SOC e avvisi del Copilota mentre
-              il navigatore resta in primo piano.
-            </span>
-          </article>
-          <article class="feature">
-            <strong>Aggiorna ora</strong>
-            <span>
-              App indipendente, non affiliata a BYD. Stime indicative: guida sempre con buon senso.
-              <a href="https://apps.apple.com/it/app/dmicopilot/id6779566232" target="_blank" rel="noopener noreferrer">App Store</a>
-              ·
-              <a href="https://play.google.com/store/apps/details?id=com.robertomaricchiolo.dmicopilot" target="_blank" rel="noopener noreferrer">Google Play</a>
-            </span>
-          </article>
-        </div>
-
-        <figure class="news-feature">
-          <img
-            src="/assets/dmicopilot-banner-nov2026.jpg?v=20261115"
-            width="1024"
-            height="576"
-            alt="Banner DMi Copilot — nuova grafica e elenco funzioni"
-            loading="lazy"
-          >
-          <figcaption>
-            <strong>Nuova grafica novembre 2026</strong> — logo rinnovato, flusso a tre step e funzioni in evidenza.
-            <a href="https://apps.apple.com/it/app/dmicopilot/id6779566232" target="_blank" rel="noopener noreferrer">Scarica su App Store</a>
-            ·
-            <a href="https://play.google.com/store/apps/details?id=com.robertomaricchiolo.dmicopilot" target="_blank" rel="noopener noreferrer">Disponibile su Google Play</a>
-          </figcaption>
-        </figure>
-
-        <figure class="news-feature" style="margin-top:1.5rem;">
-          <img src="/assets/dmicopilot-ios18.jpg" width="1024" height="682" alt="DMi Copilot su iOS 18" loading="lazy">
-          <figcaption>
-            Disponibile anche su <strong>iOS 18</strong> — stessa esperienza su iPhone aggiornati e Android.
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="section" id="perche">
+    <section class="section section-muted" id="perche">
       <div class="container">
         <div class="section-header">
           <h2>Perché esiste DMi Copilot</h2>
@@ -288,107 +178,134 @@
     <section class="section" id="funzioni">
       <div class="container">
         <div class="section-header">
-          <h2>Come ti accompagna in viaggio</h2>
-          <p>Il navigatore ti dice dove girare. DMi Copilot ti aiuta a gestire batteria, modalità e soste di ricarica lungo quel percorso.</p>
+          <h2>Cosa puoi fare con DMi Copilot</h2>
+          <p>Dal primo km alla sosta di ricarica: pianificazione, energia e Copilota sul percorso reale.</p>
         </div>
 
-        <article style="max-width:42rem;margin-bottom:2.25rem;">
-          <h3>Prima di partire</h3>
-          <p>
-            Indichi quale BYD hai — ad esempio Seal&nbsp;6, Atto&nbsp;2, Dolphin — e se è una
-            <strong>Super DM-i</strong> (ibrida plug-in) o una <strong>Full Electric</strong> (tutta elettrica).
-            Puoi anche <strong>importare la destinazione da Google Maps</strong> (copia e incolla in DMi Copilot
-            oppure condividi il posto verso l’app). Poi metti la <strong>percentuale di batteria</strong> come
-            la vedi sul cruscotto e scegli se il viaggio è sola andata o andata e ritorno.
-          </p>
-          <p>
-            L’app stima quanta energia serve: sulla Full Electric parla di batteria; sulla DM-i tiene conto
-            anche della benzina. Divide il percorso in tratti con velocità realistiche — in autostrada intorno
-            ai 110&nbsp;km/h, fuori città intorno ai 90 — e su ogni tratto mostra il
-            <strong>nome della strada</strong>, così quando il Copilota ti parla sai a quale pezzo di viaggio
-            si riferisce.
-          </p>
-          <p>
-            Se guidi una DM-i, i suggerimenti usano le stesse voci del Pad della macchina: modalità elettrica
-            o ibrida (<strong>EV</strong> / <strong>HEV</strong>), il <strong>target SOC</strong> (il livello
-            di batteria che imposti tu, di solito tra 25% e 70%), <strong>AUTO</strong>, <strong>SAVE</strong>
-            e recupero. Se guidi una Full Electric non ci sono leve ibride: il piano resta su percentuale
-            batteria, autonomia e dove fermarti a ricaricare.
-          </p>
+        <article class="feature-split">
+          <figure class="feature-split-media">
+            <img src="/assets/dmicopilot/feat-01.jpg?v=20261121b" width="1600" height="1066" alt="DMi Copilot — pianifica i tuoi viaggi BYD con flusso Dove, Opzioni e Piano" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">1 · Pianifica</span>
+            <h3>Pianifica i tuoi viaggi</h3>
+            <p>
+              Indichi partenza e destinazione, confronti i percorsi consigliati e vedi subito
+              durata, km e anteprima mappa. Il flusso <strong>Dove → Opzioni → Piano</strong>
+              resta lo stesso su iPhone e Android.
+            </p>
+            <ul>
+              <li>Import destinazione da <strong>Google Maps</strong> (condividi o incolla coordinate).</li>
+              <li>Sola andata o andata e ritorno (ritorno con Pro).</li>
+              <li>Profili per BYD <strong>Super DM-i</strong> e <strong>Full Electric</strong>.</li>
+            </ul>
+          </div>
         </article>
 
-        <article style="max-width:42rem;margin-bottom:2.25rem;">
-          <h3>Mentre sei in strada</h3>
-          <p>
-            Succede spesso: sei in autostrada, la batteria scende più del previsto e ti chiedi se restare in
-            elettrico o passare all’ibrido, senza arrivare a destinazione a secco “perché magari bastava”.
-            DMi Copilot non sostituisce Waze o Mappe: quando il tratto lo richiede ti ricorda di cambiare
-            i settaggi — modalità ibrida, alzare o abbassare il <strong>target SOC</strong>, usare SAVE se
-            ha senso — con voce e notifiche, senza bombardarti di alert.
-          </p>
-          <p>
-            Dopo un avviso vocale la musica riprende. Se ti è sfuggito qualcosa puoi
-            <strong>ripetere l’ultimo messaggio</strong>. Quando parla, preferisce dire “modalità elettrica”
-            o “modalità ibrida” invece delle sole sigle, così resta chiaro anche a chi non vive di gergo.
-          </p>
+        <article class="feature-split feature-split--reverse">
+          <figure class="feature-split-media">
+            <img src="/assets/dmicopilot/feat-02.jpg?v=20261121b" width="1600" height="1066" alt="DMi Copilot — ricariche intelligenti lungo il percorso" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">2 · Ricariche</span>
+            <h3>Trova e pianifica le ricariche</h3>
+            <p>
+              Con «Ricarica lungo il percorso» le soste seguono quanti km in elettrico ti restano,
+              non una colonnina messa a caso a metà tragitto. Vale in sola andata, su DM-i e Full Electric.
+            </p>
+            <ul>
+              <li>Sequenza di tappe (Sosta&nbsp;1, Sosta&nbsp;2…) che puoi cambiare.</li>
+              <li>«Copia nome e posizione» per navigatore o app del gestore.</li>
+              <li>Riconoscimento gestori come Plenitude, Enel/Ewiva, IONITY quando disponibili.</li>
+            </ul>
+          </div>
         </article>
 
-        <article style="max-width:42rem;margin-bottom:2.25rem;">
-          <h3>Le ricariche lungo il percorso</h3>
-          <p>
-            Se attivi <strong>«Ricarica lungo il percorso»</strong>, le soste non sono una colonnina messa a
-            caso a metà tragitto: seguono quanti km in elettrico ti restano in base alla percentuale con cui
-            sei partito. Vale in sola andata, sia su DM-i sia su Full Electric. Compare una sequenza di tappe
-            (Sosta&nbsp;1, Sosta&nbsp;2…): puoi toccarne una e cambiarla. Con «Copia nome e posizione» metti
-            negli appunti nome e coordinate; se riconosciamo il gestore (Plenitude, Enel/Ewiva, IONITY,
-            Tesla e altri) puoi aprire la sua app e cercare lì. Non prenotiamo né scegliamo al posto tuo
-            la colonnina esatta: i gestori non espongono un modo pubblico per farlo.
-          </p>
+        <article class="feature-split">
+          <figure class="feature-split-media">
+            <img src="/assets/dmicopilot/feat-03.jpg?v=20261121b" width="1600" height="1066" alt="DMi Copilot — gestisci batteria, SOC e indicazioni di guida sul percorso" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">3 · Energia</span>
+            <h3>Gestisci batteria e benzina</h3>
+            <p>
+              Sul piano energetico vedi traiettoria batteria, tratti con velocità realistiche e,
+              sulle DM-i, le stesse voci del Pad: <strong>EV / HEV</strong>, target <strong>SOC</strong>,
+              <strong>AUTO</strong>, <strong>SAVE</strong> e recupero.
+            </p>
+            <ul>
+              <li>Stime allineate a ciò che vedi sul cruscotto (sempre indicative).</li>
+              <li>Con Pro, il <strong>Copilota</strong> avvisa ai cambi di settaggio — senza spam.</li>
+              <li>Sulle Full Electric: autonomia, SOC e dove fermarti a ricaricare.</li>
+            </ul>
+          </div>
         </article>
 
-        <article style="max-width:42rem;margin-bottom:2.25rem;">
-          <h3>Sul display dell’auto: CarPlay e Android Auto</h3>
-          <p>
-            Su iPhone, DMi Copilot appare sul cruscotto con <strong>Apple CarPlay</strong>: un riquadro
-            compatto con il tratto in corso, se sei in elettrica o ibrida, il target SOC impostato, i km al
-            prossimo cambio e — se hai collegato l’account BYD — anche la percentuale reale della batteria.
-            Continui a usare Waze, Mappe o Google Maps per le curve: loro ti dicono dove andare, DMi Copilot
-            ti tiene sul piano energia.
-          </p>
-          <p>
-            Su Android vale lo stesso con <strong>Android Auto</strong>: info compatte, leva EV/HEV,
-            AUTO/SAVE, stile di guida e avvisi tratto per tratto, più una notifica che si aggiorna mentre
-            guidi. La voce del Copilota abbassa un momento l’audio del navigatore quando parla, poi lo
-            lascia tornare in primo piano.
-          </p>
+        <article class="feature-split feature-split--reverse">
+          <figure class="feature-split-media">
+            <img src="/assets/dmicopilot/feat-04.jpg?v=20261121b" width="1462" height="1600" alt="DMi Copilot su schermo largo — mappa e piano energetico affiancati" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">4 · Schermi larghi</span>
+            <h3>Più spazio su fold e Duo</h3>
+            <p>
+              Su schermi ampi (fold, tablet, formati “Duo”) mappa e piano restano affiancati:
+              tratti, target SOC e indicazioni del Copilota senza saltare tra schede.
+            </p>
+            <ul>
+              <li>Stessa logica Dove / Opzioni / Piano, con più respiro.</li>
+              <li>Pensata per leggere il piano mentre guardi la mappa.</li>
+              <li>Compatibile con i flussi già noti su iPhone e Android.</li>
+            </ul>
+          </div>
         </article>
 
-        <article style="max-width:42rem;margin-bottom:0;">
-          <h3>Account BYD (opzionale), più vetture, cronologia e lingua</h3>
-          <p>
-            Non serve creare un account RMLABS. Se vuoi (con <strong>Pro</strong>), colleghi l’<strong>account BYD</strong>
-            che già usi sull’auto: durante il viaggio l’app può aggiornare periodicamente percentuale batteria e benzina
-            reali — in app, nelle notifiche, su CarPlay/Android Auto e, su iPhone, anche in Live Activity.
-            Se sull’account hai <strong>più di un’auto</strong>, puoi gestirne <strong>due</strong> e scegliere
-            quale usare per sync e pianificazione. Se consumi più del previsto, se la batteria non si muove quando dovrebbe,
-            o se il cloud non risponde, il Copilota te lo dice. Se lo scostamento è netto, ricalcola
-            <strong>solo i tratti che ti restano</strong>, non tutto da capo.
-          </p>
-          <p style="margin-bottom:0;">
-            I viaggi restano in <strong>cronologia</strong>: puoi confrontare stime e realtà e, nel tempo,
-            le previsioni si affinano. Dalla bandiera in Home passi tra <strong>italiano</strong> e
-            <strong>inglese</strong>: tutta l’app segue quella lingua, anche se il telefono è impostato
-            sull’altra.
-          </p>
+        <article class="feature-split">
+          <figure class="feature-split-media">
+            <img src="/assets/dmicopilot/feat-05.jpg?v=20261121b" width="1600" height="1066" alt="DMi Copilot — due veicoli BYD, CarPlay e stime più precise" loading="lazy">
+          </figure>
+          <div class="feature-split-copy">
+            <span class="feature-kicker">5 · Auto e display</span>
+            <h3>Due veicoli, CarPlay e Android Auto</h3>
+            <p>
+              Con sync cloud gestisci fino a <strong>due BYD</strong> e passi da un’auto all’altra
+              con un tap. Sul display dell’auto restano tratto, modalità, target SOC e avvisi —
+              mentre Waze o Mappe guidano le curve.
+            </p>
+            <ul>
+              <li><strong>CarPlay</strong> e <strong>Android Auto</strong>: info compatte, voce del Copilota.</li>
+              <li>Account BYD opzionale (Pro): batteria e benzina reali in viaggio.</li>
+              <li>Cronologia viaggi e lingua italiano / inglese dalla Home.</li>
+            </ul>
+          </div>
         </article>
       </div>
     </section>
 
-    <section class="section section-muted" id="oggi">
+    <section class="section section-muted" id="showcase">
+      <div class="container">
+        <div class="section-header">
+          <h2>L’app in azione</h2>
+          <p>Tramonto sulla strada, piano a due colonne e layout pensato anche per schermi larghi.</p>
+        </div>
+        <div class="showcase-grid showcase-grid--2">
+          <figure>
+            <img src="/assets/dmicopilot/hero-duo.jpg?v=20261121b" width="1600" height="900" alt="DMi Copilot su schermo Duo — mappa e Copilota affiancati" loading="lazy">
+            <figcaption>Schermo Duo / fold: mappa a sinistra, piano e settaggi a destra.</figcaption>
+          </figure>
+          <figure>
+            <img src="/assets/dmicopilot/feat-duo.jpg?v=20261121b" width="1600" height="1066" alt="DMi Copilot — esperienza ampliata su display a due pannelli" loading="lazy">
+            <figcaption>Stesse funzioni, più spazio: tratti, SOC e indicazioni sempre a vista.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="oggi">
       <div class="container">
         <div class="section-header">
           <h2>Cosa puoi fare oggi</h2>
-          <p>In sintesi, nelle versioni già sugli store — incluso l’ultimo aggiornamento.</p>
+          <p>In sintesi, nelle versioni già sugli store.</p>
         </div>
         <div style="max-width:42rem;">
           <p>
@@ -409,7 +326,7 @@
       </div>
     </section>
 
-    <section class="section" id="sostieni">
+    <section class="section section-muted" id="sostieni">
       <div class="container">
         <div class="support-box">
           <div class="support-grid">
@@ -460,45 +377,6 @@
       </div>
     </section>
 
-    <section class="section section-muted" id="in-azione">
-      <div class="container">
-        <div class="section-header">
-          <h2>L’app in azione</h2>
-          <p>Nuova grafica: Dove → Opzioni → Piano, menu a tendina, meteo e altimetria — su iPhone, Android e schermi larghi.</p>
-        </div>
-        <div class="screenshot-grid">
-          <figure class="screenshot-card">
-            <img src="/assets/screenshots/planner.png?v=20261114" alt="DMi Copilot — passo Dove: partenza, destinazione e percorsi" loading="lazy">
-            <figcaption>1. Dove — menu a tendina e percorsi consigliati</figcaption>
-          </figure>
-          <figure class="screenshot-card">
-            <img src="/assets/screenshots/vehicle.png?v=20261114" alt="DMi Copilot — Opzioni a tendina: batteria, tipo viaggio, SOC" loading="lazy">
-            <figcaption>2. Opzioni — tendine progressive, più semplici</figcaption>
-          </figure>
-          <figure class="screenshot-card">
-            <img src="/assets/screenshots/companion.png?v=20261114" alt="DMi Copilot — Piano con meteo, altimetria e Copilota" loading="lazy">
-            <figcaption>3. Piano — meteo, altimetria e Copilota live</figcaption>
-          </figure>
-          <figure class="screenshot-card">
-            <img src="/assets/screenshots/history.png?v=20261114" alt="DMi Copilot — Cronologia viaggi" loading="lazy">
-            <figcaption>Cronologia — ripianifica e confronta le stime</figcaption>
-          </figure>
-        </div>
-        <figure class="news-feature" style="margin-top:1.75rem;">
-          <img
-            src="/assets/dmicopilot-duo-ui-nov2026.jpg?v=20261114"
-            width="1600"
-            height="900"
-            alt="DMi Copilot su schermo largo: mappa e Opzioni affiancate"
-            loading="lazy"
-          >
-          <figcaption>
-            Su schermi larghi / fold: mappa a sinistra, percorsi e Opzioni a destra — stessa logica, più spazio.
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-
     <section class="section">
       <div class="container">
         <div class="section-header">
@@ -531,7 +409,7 @@
         <p class="lead">
           Grazie a chi scarica e supporta l’app: è così che continuiamo a migliorarla.
           <strong>Nuova grafica e nuove funzioni</strong> — aggiorna ora su App Store e Google Play —
-          <a href="#novita">scopri le novità</a> ·
+          <a href="#funzioni">scopri le funzioni</a> ·
           <a href="#sostieni">DMi Copilot Pro</a>.
         </p>
         <div class="store-buttons">
@@ -557,7 +435,7 @@
       <div class="footer-links">
         <a href="/">Home</a>
         <a href="/sviluppo-app/">Sviluppo app</a>
-        <a href="/dmicopilot/#novita">Novità</a>
+        <a href="/dmicopilot/#funzioni">Funzioni</a>
         <a href="/dmicopilot/supporto.html">Supporto</a>
         <a href="https://robymac71.github.io/privacy_dmicopilot_ios.html" target="_blank" rel="noopener noreferrer">Privacy iOS</a>
         <a href="https://robymac71.github.io/privacy_dmicopilot_android.html" target="_blank" rel="noopener noreferrer">Privacy Android</a>

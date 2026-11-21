@@ -1,0 +1,267 @@
+/* —— Temi per-app (layout e atmosfera distinti) —— */
+
+.theme-home {
+  --accent: #0f766e;
+  --accent-strong: #ea580c;
+  --accent-secondary: #0369a1;
+}
+
+/* DMi Copilot — notte strada / tramonto EV */
+.theme-dmi {
+  --bg: #e8eef5;
+  --bg-elevated: #f4f7fb;
+  --surface: #ffffff;
+  --surface-hover: #e2eaf3;
+  --border: rgba(15, 40, 70, 0.12);
+  --text: #0c1a2a;
+  --text-muted: #3d556e;
+  --accent: #0284c7;
+  --accent-strong: #16a34a;
+  --accent-glow: rgba(2, 132, 199, 0.16);
+  --accent-secondary: #0ea5e9;
+  --ink-deep: #071525;
+  --shadow: 0 18px 50px rgba(7, 21, 37, 0.14);
+}
+.theme-dmi .site-header {
+  background: rgba(244, 247, 251, 0.9);
+}
+.theme-dmi .hero {
+  background:
+    radial-gradient(ellipse 80% 60% at 90% 0%, rgba(14, 165, 233, 0.18), transparent 55%),
+    radial-gradient(ellipse 50% 40% at 10% 100%, rgba(34, 197, 94, 0.12), transparent 50%),
+    var(--bg);
+}
+.theme-dmi .feature-split-media,
+.theme-dmi .dmi-promo-banner {
+  background: #071525;
+}
+
+/* DriveEV — elettrico fresco / ciano */
+.theme-driveev {
+  --bg: #eef8f7;
+  --bg-elevated: #f5fcfb;
+  --surface: #ffffff;
+  --surface-hover: #dff3f0;
+  --border: rgba(8, 55, 60, 0.12);
+  --text: #062a2e;
+  --text-muted: #3a6368;
+  --accent: #0d9488;
+  --accent-strong: #0891b2;
+  --accent-glow: rgba(13, 148, 136, 0.16);
+  --accent-secondary: #0284c7;
+  --ink-deep: #042f34;
+  --shadow: 0 18px 48px rgba(4, 47, 52, 0.12);
+}
+.theme-driveev .hero {
+  background:
+    linear-gradient(180deg, rgba(8, 145, 178, 0.08), transparent 40%),
+    var(--bg);
+}
+
+/* Cooklity — caldo cucina / terracotta soft */
+.theme-cooklity {
+  --bg: #f7f1ea;
+  --bg-elevated: #fbf7f2;
+  --surface: #fffdfb;
+  --surface-hover: #f0e6db;
+  --border: rgba(70, 40, 20, 0.12);
+  --text: #2a1810;
+  --text-muted: #6b5346;
+  --accent: #c2410c;
+  --accent-strong: #b45309;
+  --accent-glow: rgba(194, 65, 12, 0.14);
+  --accent-secondary: #a16207;
+  --ink-deep: #1c100a;
+  --shadow: 0 18px 48px rgba(42, 24, 16, 0.12);
+  --radius: 18px;
+}
+.theme-cooklity .site-header {
+  background: rgba(251, 247, 242, 0.92);
+}
+.theme-cooklity .hero {
+  background:
+    radial-gradient(ellipse 70% 50% at 0% 0%, rgba(251, 146, 60, 0.16), transparent 55%),
+    var(--bg);
+}
+.theme-cooklity .feature-split-media {
+  background: #2a1810;
+  border-radius: 22px;
+}
+
+/* ToyTell — pastello famiglia / soft peach-sky */
+.theme-toytell {
+  --bg: #f3f0fb;
+  --bg-elevated: #faf8ff;
+  --surface: #ffffff;
+  --surface-hover: #ebe6f8;
+  --border: rgba(60, 40, 90, 0.12);
+  --text: #1f1633;
+  --text-muted: #5c5270;
+  --accent: #7c3aed;
+  --accent-strong: #db2777;
+  --accent-glow: rgba(124, 58, 237, 0.14);
+  --accent-secondary: #c026d3;
+  --ink-deep: #150e24;
+  --shadow: 0 18px 48px rgba(31, 22, 51, 0.12);
+  --radius: 20px;
+}
+.theme-toytell .site-header {
+  background: rgba(250, 248, 255, 0.92);
+}
+.theme-toytell .hero {
+  background:
+    radial-gradient(ellipse 60% 50% at 100% 10%, rgba(244, 114, 182, 0.18), transparent 50%),
+    radial-gradient(ellipse 50% 40% at 0% 90%, rgba(167, 139, 250, 0.2), transparent 55%),
+    var(--bg);
+}
+.theme-toytell .feature-split-media {
+  background: #2e1a4a;
+  border-radius: 24px;
+}
+
+/* ScadMed — clinico pulito / teal-salvia */
+.theme-scadmed {
+  --bg: #eef5f2;
+  --bg-elevated: #f6faf8;
+  --surface: #ffffff;
+  --surface-hover: #e4efe9;
+  --border: rgba(20, 60, 50, 0.12);
+  --text: #0f241f;
+  --text-muted: #45665c;
+  --accent: #0f766e;
+  --accent-strong: #047857;
+  --accent-glow: rgba(15, 118, 110, 0.14);
+  --accent-secondary: #059669;
+  --ink-deep: #06241e;
+  --shadow: 0 16px 44px rgba(6, 36, 30, 0.1);
+  --radius: 12px;
+}
+.theme-scadmed .hero {
+  background:
+    linear-gradient(135deg, rgba(16, 185, 129, 0.07), transparent 45%),
+    var(--bg);
+}
+.theme-scadmed .feature-split-media {
+  background: #0f241f;
+  border-radius: 12px;
+}
+
+/* StudioCal — slate professionale */
+.theme-studiocal {
+  --bg: #eef1f5;
+  --bg-elevated: #f7f8fa;
+  --surface: #ffffff;
+  --surface-hover: #e5e9ef;
+  --border: rgba(30, 40, 55, 0.12);
+  --text: #121820;
+  --text-muted: #4a5568;
+  --accent: #1e40af;
+  --accent-strong: #1d4ed8;
+  --accent-glow: rgba(30, 64, 175, 0.14);
+  --accent-secondary: #334155;
+  --ink-deep: #0b1220;
+  --shadow: 0 16px 44px rgba(11, 18, 32, 0.12);
+  --radius: 10px;
+}
+.theme-studiocal .site-header {
+  background: rgba(247, 248, 250, 0.94);
+}
+.theme-studiocal .hero {
+  background:
+    linear-gradient(180deg, rgba(30, 64, 175, 0.06), transparent 42%),
+    var(--bg);
+}
+
+/* —— Showcase creatività (griglia marketing) —— */
+.showcase {
+  margin: 0;
+}
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.showcase-grid figure {
+  margin: 0;
+  border-radius: calc(var(--radius) + 2px);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+  background: var(--ink-deep);
+}
+.showcase-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+.showcase-grid figcaption {
+  padding: 0.65rem 0.85rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+}
+.showcase-grid--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 900px) {
+  .showcase-grid,
+  .showcase-grid--2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Hero brand unificato */
+.app-hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+}
+.app-hero-brand img {
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  flex-shrink: 0;
+}
+.app-hero-brand .app-tagline {
+  margin: 0.25rem 0 0;
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+@media (max-width: 640px) {
+  .app-hero-brand img {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+  }
+}
+
+/* Home: strip creatività studio */
+.studio-strip {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.studio-strip figure {
+  margin: 0;
+  border-radius: calc(var(--radius) + 4px);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+.studio-strip img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media (max-width: 800px) {
+  .studio-strip {
+    grid-template-columns: 1fr;
+  }
+}
