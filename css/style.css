@@ -1284,3 +1284,106 @@ body.has-store-sticky {
     border-radius: 14px;
   }
 }
+
+/* —— DriveEV landing —— */
+.driveev-hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+}
+.driveev-hero-brand img {
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+.driveev-tagline {
+  margin: 0.25rem 0 0;
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+.feature-split {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+.feature-split--reverse {
+  grid-template-columns: 0.95fr 1.05fr;
+}
+.feature-split--reverse .feature-split-media {
+  order: 2;
+}
+.feature-split--reverse .feature-split-copy {
+  order: 1;
+}
+.feature-split-media {
+  margin: 0;
+  border-radius: calc(var(--radius) + 4px);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  background: #0b1c2c;
+}
+.feature-split-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.feature-split-copy h3 {
+  margin: 0 0 0.65rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+.feature-split-copy p {
+  margin: 0 0 0.9rem;
+  color: var(--text-muted);
+  max-width: 38rem;
+}
+.feature-split-copy ul {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--text);
+}
+.feature-split-copy li {
+  margin-bottom: 0.45rem;
+}
+.feature-kicker {
+  display: inline-block;
+  margin-bottom: 0.55rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-secondary);
+}
+.driveev-pro-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+@media (max-width: 900px) {
+  .feature-split,
+  .feature-split--reverse {
+    grid-template-columns: 1fr;
+  }
+  .feature-split--reverse .feature-split-media,
+  .feature-split--reverse .feature-split-copy {
+    order: initial;
+  }
+  .driveev-pro-table {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .driveev-hero-brand img {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+  }
+}
