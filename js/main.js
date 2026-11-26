@@ -10,29 +10,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const heroVideo = document.getElementById("hero-ecosistema-video");
   const soundBtn = document.getElementById("hero-ecosistema-sound");
-  if (heroVideo) {
-    heroVideo.muted = false;
+  if (heroVideo && soundBtn) {
+    const syncSoundLabel = () => {
+      soundBtn.hidden = false;
+      soundBtn.textContent = heroVideo.muted ? "Attiva audio" : "Disattiva audio";
+      soundBtn.setAttribute("aria-pressed", heroVideo.muted ? "false" : "true");
+    };
+    heroVideo.muted = true;
     heroVideo.volume = 1;
-    const tryPlayWithSound = () =>
-      heroVideo.play().then(() => {
-        if (soundBtn) soundBtn.hidden = true;
-      }).catch(() => {
-        // Browser blocks unmuted autoplay: start muted, offer one-tap sound.
-        heroVideo.muted = true;
-        heroVideo.play().catch(() => {});
-        if (soundBtn) soundBtn.hidden = false;
-      });
-    tryPlayWithSound();
-    if (soundBtn) {
-      soundBtn.addEventListener("click", (event) => {
-        event.preventDefault();
-        heroVideo.muted = false;
+    heroVideo.play().catch(() => {});
+    syncSoundLabel();
+    soundBtn.addEventListener("click", (event) => {
+      event.preventDefault();
+      heroVideo.muted = !heroVideo.muted;
+      if (!heroVideo.muted) {
         heroVideo.volume = 1;
-        heroVideo.play().then(() => {
-          soundBtn.hidden = true;
-        }).catch(() => {});
-      });
-    }
+        heroVideo.play().catch(() => {});
+      }
+      syncSoundLabel();
+    });
   }
 
   const stickyHost = document.getElementById("store-sticky");
