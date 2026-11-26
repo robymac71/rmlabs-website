@@ -241,12 +241,13 @@
   }
 }
 
-/* Home: strip creatività studio */
+/* Home: strip creatività studio — stessa altezza, niente buchi bianchi */
 .studio-strip {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin-top: 1.5rem;
+  align-items: stretch;
 }
 .studio-strip figure {
   margin: 0;
@@ -254,11 +255,15 @@
   overflow: hidden;
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
+  aspect-ratio: 16 / 10;
+  background: #0b1c3d;
 }
 .studio-strip img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
+  object-fit: cover;
+  object-position: center;
 }
 @media (max-width: 800px) {
   .studio-strip {
