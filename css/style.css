@@ -645,9 +645,11 @@ h2 {
 
 .screenshot-card img {
   width: 100%;
-  aspect-ratio: 9 / 19.5;
-  object-fit: cover;
-  object-position: top;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  object-position: top center;
+  background: #0b1220;
 }
 
 .screenshot-card figcaption {
@@ -810,17 +812,19 @@ h2 {
 
 .app-card-rich .app-card-thumb {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  background: #0b1220;
   border-bottom: 1px solid var(--border);
 }
 
 .app-card-rich .app-card-thumb-scadmed {
-  object-position: left center;
+  object-position: center;
 }
 
 .app-card-rich .app-card-thumb-contain {
-  aspect-ratio: 1024 / 682;
   object-fit: contain;
   object-position: center;
   background: linear-gradient(180deg, #e8f5f1 0%, #dceee8 100%);
@@ -924,10 +928,11 @@ h2 {
 
 .media-gallery img {
   width: 100%;
+  height: auto;
   display: block;
-  aspect-ratio: 9 / 16;
-  object-fit: cover;
-  object-position: top;
+  object-fit: contain;
+  object-position: top center;
+  background: #0b1220;
 }
 
 .media-gallery figcaption {
@@ -938,7 +943,8 @@ h2 {
 }
 
 .media-gallery .media-wide img {
-  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: auto;
   object-fit: contain;
   background: #0d2421;
 }
@@ -968,8 +974,8 @@ h2 {
 .showcase-card img,
 .showcase-card video {
   width: 100%;
+  height: auto;
   display: block;
-  aspect-ratio: 16 / 10;
   object-fit: contain;
   background: #0d2421;
 }

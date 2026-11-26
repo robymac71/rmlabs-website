@@ -193,8 +193,9 @@
   width: 100%;
   height: auto;
   display: block;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  background: #0b1220;
 }
 .showcase-grid figcaption {
   padding: 0.65rem 0.85rem;
