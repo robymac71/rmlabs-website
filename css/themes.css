@@ -171,6 +171,14 @@
     linear-gradient(180deg, rgba(30, 64, 175, 0.06), transparent 42%),
     var(--bg);
 }
+.theme-studiocal .feature-split-media,
+.theme-studiocal .dmi-promo-banner,
+.theme-studiocal .showcase-grid figure {
+  background: #eef4fb;
+}
+.theme-studiocal .showcase-grid img {
+  background: #eef4fb;
+}
 
 /* —— Showcase creatività (griglia marketing) —— */
 .showcase {
