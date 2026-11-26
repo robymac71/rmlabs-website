@@ -142,8 +142,15 @@
     var(--bg);
 }
 .theme-scadmed .feature-split-media {
-  background: #0f241f;
+  background: #e8f5f1;
   border-radius: 12px;
+}
+.theme-scadmed .dmi-promo-banner,
+.theme-scadmed .showcase-grid figure {
+  background: #e8f5f1;
+}
+.theme-scadmed .showcase-grid img {
+  background: #e8f5f1;
 }
 
 /* StudioCal — slate professionale */
