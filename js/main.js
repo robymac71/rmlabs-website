@@ -8,6 +8,33 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const heroVideo = document.getElementById("hero-ecosistema-video");
+  const soundBtn = document.getElementById("hero-ecosistema-sound");
+  if (heroVideo) {
+    heroVideo.muted = false;
+    heroVideo.volume = 1;
+    const tryPlayWithSound = () =>
+      heroVideo.play().then(() => {
+        if (soundBtn) soundBtn.hidden = true;
+      }).catch(() => {
+        // Browser blocks unmuted autoplay: start muted, offer one-tap sound.
+        heroVideo.muted = true;
+        heroVideo.play().catch(() => {});
+        if (soundBtn) soundBtn.hidden = false;
+      });
+    tryPlayWithSound();
+    if (soundBtn) {
+      soundBtn.addEventListener("click", (event) => {
+        event.preventDefault();
+        heroVideo.muted = false;
+        heroVideo.volume = 1;
+        heroVideo.play().then(() => {
+          soundBtn.hidden = true;
+        }).catch(() => {});
+      });
+    }
+  }
+
   const stickyHost = document.getElementById("store-sticky");
   if (!stickyHost) return;
 

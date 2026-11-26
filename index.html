@@ -26,7 +26,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261121b">
+  <link rel="stylesheet" href="/css/style.css?v=20261126">
   <link rel="stylesheet" href="/css/themes.css?v=20261121b">
   <script type="application/ld+json">
   {
@@ -178,14 +178,24 @@
   <main>
     <section class="hero hero--wide-banner">
       <div class="container hero-wide">
-        <a class="hero-banner-wide" href="/sviluppo-app/">
-          <img
-            src="/assets/rmlabs/hero-apps.jpg?v=20261121b"
+        <div class="hero-banner-wide hero-banner-wide--video">
+          <video
+            id="hero-ecosistema-video"
+            class="hero-banner-video"
             width="1600"
             height="900"
-            alt="RMLABS Developer — le nostre app pensate per te, iOS e Android"
+            autoplay
+            loop
+            playsinline
+            preload="auto"
+            poster="/assets/rmlabs/hero-ecosistema-poster.jpg?v=20261126"
           >
-        </a>
+            <source src="/assets/rmlabs/hero-ecosistema.mp4?v=20261126" type="video/mp4">
+          </video>
+          <button type="button" class="hero-video-sound" id="hero-ecosistema-sound" hidden>
+            Attiva audio
+          </button>
+        </div>
         <div class="hero-wide-copy">
           <div class="eyebrow">Sviluppo app · Nettuno, Anzio, Latina, Roma · iOS &amp; Android</div>
           <h1>Idee che diventano app — e restano utili ogni giorno</h1>
@@ -476,6 +486,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js" defer></script>
+  <script src="/js/main.js?v=20261126" defer></script>
 </body>
 </html>
